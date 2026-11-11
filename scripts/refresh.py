@@ -8,6 +8,8 @@ import argparse
 import concurrent.futures
 import datetime as dt
 import html
+import gzip
+import zlib
 from html.parser import HTMLParser
 import json
 from pathlib import Path
@@ -17,6 +19,10 @@ import urllib.error
 from urllib.parse import urlparse
 import xml.etree.ElementTree as ET
 from zoneinfo import ZoneInfo
+try:
+    import catalog
+except ImportError:
+    from scripts import catalog
 
 ROOT = Path(__file__).resolve().parents[1]
 DAYS = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
@@ -40,6 +46,7 @@ SOURCES = [
     ('SmartCanucks RSS', 'https://smartcanucks.ca/feed/'),
     ('SaveaLoonie RSS', 'https://www.savealoonie.com/feed/'),
 ]
+SOURCES = list(dict.fromkeys(SOURCES + catalog.EXTRA_SOURCES))
 
 class TextParser(HTMLParser):
     def __init__(self):
@@ -58,14 +65,19 @@ def plain(raw):
 def fetch(source):
     name, url = source
     try:
-        req = urllib.request.Request(url, headers={'User-Agent': 'DurhamDailyDealFinder/1.0 (+https://github.com/KEVBOTBETS/Dailydeals)', 'Accept-Language': 'en-CA,en;q=0.9'})
+        req = urllib.request.Request(url, headers={'User-Agent': 'DurhamDailyDealFinder/1.0 (+https://github.com/KEVBOTBETS/Dailydeals)', 'Accept-Language': 'en-CA,en;q=0.9', 'Accept-Encoding':'identity'})
         with urllib.request.urlopen(req, timeout=22) as response:
-            raw = response.read(3_000_000).decode('utf-8', errors='replace')
+            body=response.read(3_000_000)
+            encoding=response.headers.get('Content-Encoding','').lower()
+            if encoding=='gzip':body=gzip.decompress(body)
+            elif encoding=='deflate':body=zlib.decompress(body)
+            elif encoding not in ('','identity'):raise ValueError('Unsupported compressed response')
+            raw = body.decode('utf-8')
         text = plain(raw)
         if len(text) < 80 or re.search(r'(just a moment|access denied|verify you are human)', text[:500], re.I):
             raise ValueError('Empty, JavaScript-only or blocked response')
         return dict(name=name, url=url, ok=True, checkedAt=NOW, raw=raw, text=text)
-    except (OSError, ValueError, urllib.error.URLError) as error:
+    except (OSError, ValueError, urllib.error.URLError, zlib.error) as error:
         return dict(name=name, url=url, ok=False, checkedAt=NOW, error=str(error)[:160], text='', raw='')
 
 def deal(id, brand, title, description, price, url, **extra):
@@ -128,7 +140,7 @@ def healthier():
 
 def discover(results):
     leads=[];seen=set()
-    food=re.compile(r"mcdonald|wendy|harvey|subway|kfc|mary brown|pizza|tim horton|a&w|burger king|popeye|taco bell|osmow|freshii|pita pit|fast food|restaurant|shawarma",re.I)
+    food=re.compile(r"mcdonald|wendy|harvey|subway|kfc|mary brown|pizza|tim horton|a&w|burger king|popeye|taco bell|osmow|freshii|pita pit|fast food|restaurant|shawarma|thai express|booster juice|barburrito|starbucks|mucho burrito",re.I)
     for r in results:
         if 'RSS' not in r['name'] or not r['ok']: continue
         try: root=ET.fromstring(r['raw'])
@@ -157,7 +169,7 @@ def main():
     if target.exists():
         try:old=json.loads(target.read_text())
         except (ValueError,OSError):pass
-    offers=official_deals(pages)
+    offers=official_deals(pages)+catalog.local_deals(pages,deal,NOW,DAYS)+catalog.chain_additions(pages,deal,DAYS)
     # Preserve previously verified offers only during a short, labelled fetch failure.
     ids={d['id'] for d in offers}
     for d in old.get('deals',[]):
@@ -166,7 +178,11 @@ def main():
         except (ValueError,TypeError,KeyError):continue
         if age<=3 and (not d.get('ends') or d['ends']>=TODAY):
             d=dict(d,sourceUnavailable=True);offers.append(d)
-    payload=dict(generatedAt=NOW,timezone='America/Toronto',currency='CAD',region='Durham Region, Ontario',deals=offers+destinations(pages)+healthier(),leads=discover(results),sources=[{k:v for k,v in r.items() if k not in ('text','raw')} for r in results])
+    extra=[deal(id+'-coupons',brand,title,catalog.DESTINATION_NOTES.get(brand,'Open the official Canadian offer or local ordering page. Availability and account requirements vary.'),None,url,kind='coupon',icon=icon,checkedAt=NOW if url in pages else None,terms='No discount or code is guaranteed. Select your restaurant and inspect the current offer before ordering.') for id,brand,title,url,icon in catalog.EXTRA_DESTINATIONS]
+    deals=catalog.enrich(offers+destinations(pages)+extra+healthier())
+    leads=discover(results)+catalog.link_leads(results,NOW)
+    unique={l['url']:l for l in leads}
+    payload=dict(schemaVersion=2,generatedAt=NOW,timezone='America/Toronto',currency='CAD',region='Durham Region, Ontario',deals=deals,branches=catalog.branch_records(pages,NOW),leads=catalog.match_leads(list(unique.values()),deals),sources=[{k:v for k,v in r.items() if k not in ('text','raw')} for r in results])
     target.parent.mkdir(parents=True,exist_ok=True)
     tmp=target.with_suffix('.tmp');tmp.write_text(json.dumps(payload,ensure_ascii=False,indent=2)+'\n');tmp.replace(target)
     print(f'Refreshed {len(offers)} published offers, {len(payload["leads"])} unverified leads; {len(pages)}/{len(SOURCES)} sources reachable.')

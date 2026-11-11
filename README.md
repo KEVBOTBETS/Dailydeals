@@ -4,6 +4,19 @@ A responsive, buildless fast-food deal board for **Durham Region, Ontario**, in 
 
 ## Features
 
+### Local price and discovery upgrade
+
+- The first view shows **full meals and combos**; mains, wraps, snacks, sides, desserts, drinks, coupon destinations and healthier choices have separate filters.
+- Town and exact-branch filters use official branch records. **Branch prices checked only** requires a fresh priced menu at that address, matching product evidence, and a fresh address check. A chain branch directory entry cannot verify a chain price.
+- Current local parsers cover Big Bites Shawarma (500 Rossland Road West, Oshawa), Pita Deli (1600 Champlain Ave, Whitby) and Cork & Bean (8 Simcoe St N, Oshawa). These are published menu quotes, not completed checkouts. Pita Deli is excluded on Sunday.
+- Priced healthier choices include vegetarian pitas and falafel wraps, with an explanation of ingredients and tradeoffs. Small vegetable salads remain **sides**, not full meals. No calorie or low-sodium claims are invented.
+- Every priced card shows the **whole minimum required spend** before tax. Conditional freebies include the required purchase; two-person bundles retain their whole basket total for sorting and budget caps. Per-person prices are secondary. App, registration and redemption restrictions are visible.
+- The three best-value slots use only fresh branch-menu quotes within the selected area and filters: cheapest complete meal/combo, lowest-priced plant-forward main, and lowest whole spend for two. A two-person bundle is labelled as such, including on the cheapest-combo slot. Singles can be doubled only when no single-use restriction or conditional purchase prevents it. Empty categories stay empty. This is a comparison among the collected offers, not every restaurant in Durham.
+- Coverage includes Burger King, A&W, Popeyes, Taco Bell, Osmow’s, Pita Pit, **Thai Express, Booster Juice, barBurrito, Starbucks**, MUCHO Burrito and independent Durham restaurants, alongside the original chains. Unpriced destinations do not claim a live discount. Selecting a restaurant shows all its offer types, so a coffee/rewards destination is not hidden by the default meal filter.
+- Discovery checks additional Canadian coupon feeds, restaurant search pages, merchant offer links, local menus and branch pages. Leads stay unverified unless the title’s brand, product and exact advertised price match an independently extracted merchant offer. Such a match links to merchant evidence and does not prove branch participation or add a new code.
+
+### Original capabilities
+
 - Monday–Sunday upcoming-date and next-seven-day views, Toronto-local “today”, search, budget and restaurant sorting.
 - Pickering, Ajax, Whitby, Oshawa, Courtice, Bowmanville, Newcastle, Uxbridge, Port Perry, Beaverton and Cannington nearby searches. Town selection changes map/web queries; it does **not** assert branch participation.
 - Separate published offers, coupon/app destinations and healthier menu ideas. Unpriced coupons and healthier ideas are excluded by budget caps.
@@ -19,7 +32,7 @@ The workflow requests Pages enablement and publishes `docs/`. If GitHub requires
 
 `scripts/refresh.py` has small, explicit rules for current public official offers. Prices are extracted only when the matching product is present. Time-limited offers have expiry bounds. A publication/source check is **not** a checkout test or verification at a Durham branch. Account-only coupons cannot be scraped; use the official app. An unavailable source can retain a previously checked priced offer for at most three days with its original timestamp and an outage flag. A successful fetch without the offer removes it immediately. Stale prices are not treated as newly checked.
 
-RSS results are **unverified internet leads** and never promoted into priced offers. Feed failures are visible under source checks. New arbitrary offers require a new bounded extraction rule in `official_deals`; this collector is not a general-purpose AI deal verifier. Local independent restaurant specials can be discovered through the town-specific search links but are not automatically declared valid. No invented coupon codes, calories, protein numbers, savings percentages or expiry dates. Healthier entries are qualitative customization ideas with menu/nutrition links, not promised discounted meals.
+RSS results are **unverified internet leads** and never promoted into priced offers. Feed failures are visible under source checks. New arbitrary offers require a bounded extraction rule in `official_deals`, `catalog.local_deals` or `catalog.chain_additions`; this collector is not a general-purpose AI deal verifier. Local independent restaurant specials can be discovered through the town-specific search links but are not automatically declared valid. No invented coupon codes, calories, protein numbers, savings percentages or expiry dates. Healthier entries include priced local menu items and separate unpriced customization ideas. A regular menu price is never presented as a sale.
 
 ## Run and maintain
 

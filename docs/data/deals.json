@@ -1,34 +1,10 @@
 {
-  "generatedAt": "2026-11-11T02:59:15+00:00",
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-11T03:19:15+00:00",
   "timezone": "America/Toronto",
   "currency": "CAD",
   "region": "Durham Region, Ontario",
   "deals": [
-    {
-      "id": "wendys-canadian",
-      "brand": "Wendy’s",
-      "title": "Canadian Meal Deal",
-      "description": "A quarter-pound beef burger, Canadian fries, a Frosty and a drink. Ask for the Canadian Meal Deal.",
-      "price": 8.99,
-      "url": "https://www.wendys.com/en-ca",
-      "days": [
-        "Monday",
-        "Tuesday",
-        "Wednesday",
-        "Thursday",
-        "Friday",
-        "Saturday",
-        "Sunday"
-      ],
-      "kind": "meal",
-      "redemption": "Pickup / in-store",
-      "priceLabel": "before tax",
-      "icon": "🍔",
-      "color": "#f1ddd3",
-      "checkedAt": "2026-11-11T02:59:15+00:00",
-      "terms": "Limited offer through November 15, 2026 at participating Canadian Wendy’s. Request the $8.99 Canadian Meal Deal. Upsizing and taxes extra.",
-      "ends": "2026-11-15"
-    },
     {
       "id": "mcvalue-lunch",
       "brand": "McDonald’s",
@@ -50,10 +26,25 @@
       "priceLabel": "before tax",
       "icon": "🍔",
       "color": "#efe7d2",
-      "checkedAt": "2026-11-11T02:53:05+00:00",
+      "checkedAt": "2026-11-11T03:19:15+00:00",
       "terms": "2026 one-year price promise announced January 13. Breakfast until 11 a.m. Prices before tax; not available through delivery. Product availability varies by restaurant. Confirm at your local branch.",
       "ends": "2027-01-12",
-      "sourceUnavailable": true
+      "category": "meal",
+      "serves": 1,
+      "healthier": false,
+      "branchIds": [],
+      "verification": "chain",
+      "priceType": "offer",
+      "requirements": {
+        "app": false,
+        "registration": false,
+        "membership": null,
+        "code": null,
+        "minimumPurchase": 0,
+        "limitPerUser": null,
+        "note": "No minimum purchase. In-store / drive-thru; not delivery. Breakfast meals until 11 a.m."
+      },
+      "minimumSpend": 5
     },
     {
       "id": "mcvalue-breakfast",
@@ -76,10 +67,25 @@
       "priceLabel": "before tax",
       "icon": "🥯",
       "color": "#efe7d2",
-      "checkedAt": "2026-11-11T02:53:05+00:00",
+      "checkedAt": "2026-11-11T03:19:15+00:00",
       "terms": "2026 one-year price promise announced January 13. Breakfast until 11 a.m. Prices before tax; not available through delivery. Product availability varies by restaurant. Confirm at your local branch.",
       "ends": "2027-01-12",
-      "sourceUnavailable": true
+      "category": "meal",
+      "serves": 1,
+      "healthier": false,
+      "branchIds": [],
+      "verification": "chain",
+      "priceType": "offer",
+      "requirements": {
+        "app": false,
+        "registration": false,
+        "membership": null,
+        "code": null,
+        "minimumPurchase": 0,
+        "limitPerUser": null,
+        "note": "No minimum purchase. In-store / drive-thru; not delivery. Breakfast meals until 11 a.m."
+      },
+      "minimumSpend": 5
     },
     {
       "id": "mc-coffee",
@@ -102,10 +108,25 @@
       "priceLabel": "before tax",
       "icon": "☕",
       "color": "#efe7d2",
-      "checkedAt": "2026-11-11T02:53:05+00:00",
+      "checkedAt": "2026-11-11T03:19:15+00:00",
       "terms": "Small coffee only; 2026 price guarantee. Before tax; not available through delivery. Customizations may cost extra.",
       "ends": "2027-01-12",
-      "sourceUnavailable": true
+      "category": "drink",
+      "serves": 1,
+      "healthier": false,
+      "branchIds": [],
+      "verification": "chain",
+      "priceType": "offer",
+      "requirements": {
+        "app": false,
+        "registration": false,
+        "membership": null,
+        "code": null,
+        "minimumPurchase": 0,
+        "limitPerUser": null,
+        "note": "No minimum purchase. In-store / drive-thru; not delivery. Breakfast meals until 11 a.m."
+      },
+      "minimumSpend": 1
     },
     {
       "id": "kfc-popcorn",
@@ -128,9 +149,24 @@
       "priceLabel": "before tax",
       "icon": "🍗",
       "color": "#f4e0d6",
-      "checkedAt": "2026-11-11T02:53:05+00:00",
+      "checkedAt": "2026-11-11T03:19:15+00:00",
       "terms": "Participating Canadian restaurants. Confirm the offer and availability at your chosen Durham branch. Delivery, upgrades and taxes can cost extra.",
-      "sourceUnavailable": true
+      "category": "snack",
+      "serves": 1,
+      "healthier": false,
+      "branchIds": [],
+      "verification": "chain",
+      "priceType": "offer",
+      "requirements": {
+        "app": null,
+        "registration": null,
+        "membership": null,
+        "code": null,
+        "minimumPurchase": 0,
+        "limitPerUser": null,
+        "note": "Check the official offer for app, account, coupon and order restrictions."
+      },
+      "minimumSpend": 4.95
     },
     {
       "id": "kfc-bucket-one",
@@ -153,16 +189,72 @@
       "priceLabel": "before tax",
       "icon": "🍗",
       "color": "#f4e0d6",
-      "checkedAt": "2026-11-11T02:53:05+00:00",
+      "checkedAt": "2026-11-11T03:19:15+00:00",
       "terms": "Participating Canadian restaurants. Confirm the offer and availability at your chosen Durham branch. Delivery, upgrades and taxes can cost extra.",
-      "sourceUnavailable": true
+      "category": "meal",
+      "serves": 1,
+      "healthier": false,
+      "branchIds": [],
+      "verification": "chain",
+      "priceType": "offer",
+      "requirements": {
+        "app": null,
+        "registration": null,
+        "membership": null,
+        "code": null,
+        "minimumPurchase": 0,
+        "limitPerUser": null,
+        "note": "Check the official offer for app, account, coupon and order restrictions."
+      },
+      "minimumSpend": 9.99
+    },
+    {
+      "id": "wendys-canadian",
+      "brand": "Wendy’s",
+      "title": "Canadian Meal Deal",
+      "description": "A quarter-pound beef burger, Canadian fries, a Frosty and a drink. Ask for the Canadian Meal Deal.",
+      "price": 8.99,
+      "url": "https://www.wendys.com/en-ca",
+      "days": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "kind": "meal",
+      "redemption": "Pickup / in-store",
+      "priceLabel": "before tax",
+      "icon": "🍔",
+      "color": "#f1ddd3",
+      "checkedAt": "2026-11-11T03:19:15+00:00",
+      "terms": "Limited offer through November 15, 2026 at participating Canadian Wendy’s. Request the $8.99 Canadian Meal Deal. Upsizing and taxes extra.",
+      "ends": "2026-11-15",
+      "category": "meal",
+      "serves": 1,
+      "healthier": false,
+      "branchIds": [],
+      "verification": "chain",
+      "priceType": "offer",
+      "requirements": {
+        "app": null,
+        "registration": null,
+        "membership": null,
+        "code": null,
+        "minimumPurchase": 0,
+        "limitPerUser": null,
+        "note": "Check the official offer for app, account, coupon and order restrictions."
+      },
+      "minimumSpend": 8.99
     },
     {
       "id": "mc-fries",
       "brand": "McDonald’s",
       "title": "Free fries with a purchase",
       "description": "Get medium fries with a minimum $3 pre-tax purchase; a hash brown is offered before 11 a.m.",
-      "price": null,
+      "price": 0,
       "url": "https://www.mcdonalds.com/ca/en-ca.html",
       "days": [
         "Friday"
@@ -172,7 +264,7 @@
       "priceLabel": "min. $3 purchase",
       "icon": "🍟",
       "color": "#f5e5cb",
-      "checkedAt": "2026-11-11T02:53:05+00:00",
+      "checkedAt": "2026-11-11T03:19:15+00:00",
       "terms": "Only valid on 2026-11-06, 2026-11-13, 2026-11-20. At participating Canadian restaurants. App registration required, one redemption per user; full terms in-app. Free fries requires at least $3 pre-tax spending.",
       "dates": [
         "2026-11-06",
@@ -181,7 +273,22 @@
       ],
       "starts": "2026-11-06",
       "ends": "2026-11-20",
-      "sourceUnavailable": true
+      "category": "side",
+      "serves": 1,
+      "healthier": false,
+      "branchIds": [],
+      "verification": "unpriced",
+      "priceType": "offer",
+      "requirements": {
+        "app": true,
+        "registration": true,
+        "membership": null,
+        "code": null,
+        "minimumPurchase": 3,
+        "limitPerUser": 1,
+        "note": "App and registration required; one redemption per user. Eligible dates only."
+      },
+      "minimumSpend": 3
     },
     {
       "id": "mc-dessert",
@@ -198,7 +305,7 @@
       "priceLabel": "before tax",
       "icon": "🍦",
       "color": "#f5e5cb",
-      "checkedAt": "2026-11-11T02:53:05+00:00",
+      "checkedAt": "2026-11-11T03:19:15+00:00",
       "terms": "Only valid on 2026-11-09, 2026-11-16, 2026-11-23. At participating Canadian restaurants. App registration required, one redemption per user; full terms in-app. Free fries requires at least $3 pre-tax spending.",
       "dates": [
         "2026-11-09",
@@ -207,7 +314,675 @@
       ],
       "starts": "2026-11-09",
       "ends": "2026-11-23",
-      "sourceUnavailable": true
+      "category": "dessert",
+      "serves": 1,
+      "healthier": false,
+      "branchIds": [],
+      "verification": "chain",
+      "priceType": "offer",
+      "requirements": {
+        "app": true,
+        "registration": true,
+        "membership": null,
+        "code": null,
+        "minimumPurchase": 0,
+        "limitPerUser": 1,
+        "note": "App and registration required; one redemption per user. Eligible dates only."
+      },
+      "minimumSpend": 2
+    },
+    {
+      "id": "big-falafel",
+      "brand": "Big Bites Shawarma",
+      "title": "Falafel wrap",
+      "description": "Published at 500 Rossland Road West, Unit 3, Oshawa. Regular menu price; a discount is not claimed.",
+      "price": 9.99,
+      "url": "https://bigbitesshawarma.com/",
+      "days": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "kind": "meal",
+      "redemption": "Pickup / in-store",
+      "priceLabel": "before tax",
+      "icon": "🥙",
+      "color": "#e4ead6",
+      "checkedAt": "2026-11-11T03:19:15+00:00",
+      "terms": "Official menu for this specific address. Price checked on the restaurant’s website, not by placing an order. Tax, extras and delivery can cost more; confirm final total with the restaurant. ",
+      "category": "main",
+      "serves": 1,
+      "healthier": true,
+      "healthReason": "Chickpea-based wrap with vegetable toppings. Falafel is fried; sauces and portion still matter.",
+      "verification": "branch-menu",
+      "branchIds": [
+        "bigbites-rossland"
+      ],
+      "priceType": "menu",
+      "requirements": {
+        "app": false,
+        "registration": false,
+        "membership": null,
+        "code": null,
+        "minimumPurchase": 0,
+        "limitPerUser": null,
+        "note": "Published menu price; no coupon required. Order directly; delivery-platform pricing can differ."
+      },
+      "evidence": {
+        "url": "https://bigbitesshawarma.com/",
+        "checkedAt": "2026-11-11T03:19:15+00:00",
+        "matchedText": "Falafel Wrap Vegan $9.99"
+      },
+      "minimumSpend": 9.99
+    },
+    {
+      "id": "big-chicken",
+      "brand": "Big Bites Shawarma",
+      "title": "Chicken wrap",
+      "description": "Published at 500 Rossland Road West, Unit 3, Oshawa. Regular menu price; a discount is not claimed.",
+      "price": 11.99,
+      "url": "https://bigbitesshawarma.com/",
+      "days": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "kind": "meal",
+      "redemption": "Pickup / in-store",
+      "priceLabel": "before tax",
+      "icon": "🥙",
+      "color": "#e4ead6",
+      "checkedAt": "2026-11-11T03:19:15+00:00",
+      "terms": "Official menu for this specific address. Price checked on the restaurant’s website, not by placing an order. Tax, extras and delivery can cost more; confirm final total with the restaurant. ",
+      "category": "main",
+      "serves": 1,
+      "healthier": false,
+      "healthReason": "",
+      "verification": "branch-menu",
+      "branchIds": [
+        "bigbites-rossland"
+      ],
+      "priceType": "menu",
+      "requirements": {
+        "app": false,
+        "registration": false,
+        "membership": null,
+        "code": null,
+        "minimumPurchase": 0,
+        "limitPerUser": null,
+        "note": "Published menu price; no coupon required. Order directly; delivery-platform pricing can differ."
+      },
+      "evidence": {
+        "url": "https://bigbitesshawarma.com/",
+        "checkedAt": "2026-11-11T03:19:15+00:00",
+        "matchedText": "Chicken Wrap $11.99"
+      },
+      "minimumSpend": 11.99
+    },
+    {
+      "id": "big-falafel-two",
+      "brand": "Big Bites Shawarma",
+      "title": "Two falafel wraps + two drinks",
+      "description": "Published at 500 Rossland Road West, Unit 3, Oshawa. Two wraps and two drinks; buy the whole bundle.",
+      "price": 16.99,
+      "url": "https://bigbitesshawarma.com/",
+      "days": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "kind": "meal",
+      "redemption": "Pickup / in-store",
+      "priceLabel": "before tax",
+      "icon": "🥙",
+      "color": "#e4ead6",
+      "checkedAt": "2026-11-11T03:19:15+00:00",
+      "terms": "Official menu for this specific address. Price checked on the restaurant’s website, not by placing an order. Tax, extras and delivery can cost more; confirm final total with the restaurant. ",
+      "category": "meal",
+      "serves": 2,
+      "healthier": false,
+      "healthReason": "",
+      "verification": "branch-menu",
+      "branchIds": [
+        "bigbites-rossland"
+      ],
+      "priceType": "bundle",
+      "requirements": {
+        "app": false,
+        "registration": false,
+        "membership": null,
+        "code": null,
+        "minimumPurchase": 0,
+        "limitPerUser": null,
+        "note": "Published menu price; no coupon required. Order directly; delivery-platform pricing can differ."
+      },
+      "evidence": {
+        "url": "https://bigbitesshawarma.com/",
+        "checkedAt": "2026-11-11T03:19:15+00:00",
+        "matchedText": "2 Falafel Wraps + 2 Drinks Vegan $16.99"
+      },
+      "minimumSpend": 16.99
+    },
+    {
+      "id": "big-chicken-two",
+      "brand": "Big Bites Shawarma",
+      "title": "Two chicken wraps + two drinks",
+      "description": "Published at 500 Rossland Road West, Unit 3, Oshawa. Two wraps and two drinks; buy the whole bundle.",
+      "price": 20.99,
+      "url": "https://bigbitesshawarma.com/",
+      "days": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "kind": "meal",
+      "redemption": "Pickup / in-store",
+      "priceLabel": "before tax",
+      "icon": "🥙",
+      "color": "#e4ead6",
+      "checkedAt": "2026-11-11T03:19:15+00:00",
+      "terms": "Official menu for this specific address. Price checked on the restaurant’s website, not by placing an order. Tax, extras and delivery can cost more; confirm final total with the restaurant. ",
+      "category": "meal",
+      "serves": 2,
+      "healthier": false,
+      "healthReason": "",
+      "verification": "branch-menu",
+      "branchIds": [
+        "bigbites-rossland"
+      ],
+      "priceType": "bundle",
+      "requirements": {
+        "app": false,
+        "registration": false,
+        "membership": null,
+        "code": null,
+        "minimumPurchase": 0,
+        "limitPerUser": null,
+        "note": "Published menu price; no coupon required. Order directly; delivery-platform pricing can differ."
+      },
+      "evidence": {
+        "url": "https://bigbitesshawarma.com/",
+        "checkedAt": "2026-11-11T03:19:15+00:00",
+        "matchedText": "2 Chicken Wraps + 2 Drinks $20.99"
+      },
+      "minimumSpend": 20.99
+    },
+    {
+      "id": "pita-veg",
+      "brand": "Pita Deli",
+      "title": "Vegetarian pita",
+      "description": "Published at 1600 Champlain Ave, Whitby. Regular menu price; a discount is not claimed.",
+      "price": 11.95,
+      "url": "https://pitadeliwhitby.com/",
+      "days": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "kind": "meal",
+      "redemption": "Pickup / in-store",
+      "priceLabel": "before tax",
+      "icon": "🥙",
+      "color": "#e4ead6",
+      "checkedAt": "2026-11-11T03:19:15+00:00",
+      "terms": "Official menu for this specific address. Price checked on the restaurant’s website, not by placing an order. Tax, extras and delivery can cost more; confirm final total with the restaurant. Pita Deli lists Sunday as closed.",
+      "category": "main",
+      "serves": 1,
+      "healthier": true,
+      "healthReason": "Vegetable-forward pita. Choose the vegetables you like and ask for sauce on the side; extras can cost more.",
+      "verification": "branch-menu",
+      "branchIds": [
+        "pitadeli-champlain"
+      ],
+      "priceType": "menu",
+      "requirements": {
+        "app": false,
+        "registration": false,
+        "membership": null,
+        "code": null,
+        "minimumPurchase": 0,
+        "limitPerUser": null,
+        "note": "Published menu price; no coupon required. Order directly; delivery-platform pricing can differ."
+      },
+      "evidence": {
+        "url": "https://pitadeliwhitby.com/",
+        "checkedAt": "2026-11-11T03:19:15+00:00",
+        "matchedText": "Vegetarian $11.95"
+      },
+      "minimumSpend": 11.95
+    },
+    {
+      "id": "pita-garden",
+      "brand": "Pita Deli",
+      "title": "Small garden salad",
+      "description": "Published at 1600 Champlain Ave, Whitby. Regular menu price; a discount is not claimed.",
+      "price": 8.4,
+      "url": "https://pitadeliwhitby.com/",
+      "days": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "kind": "meal",
+      "redemption": "Pickup / in-store",
+      "priceLabel": "before tax",
+      "icon": "🥗",
+      "color": "#e4ead6",
+      "checkedAt": "2026-11-11T03:19:15+00:00",
+      "terms": "Official menu for this specific address. Price checked on the restaurant’s website, not by placing an order. Tax, extras and delivery can cost more; confirm final total with the restaurant. Pita Deli lists Sunday as closed.",
+      "category": "side",
+      "serves": 1,
+      "healthier": true,
+      "healthReason": "A vegetable side to add to lunch. A small salad alone may not be a filling meal; compare dressing and additions.",
+      "verification": "branch-menu",
+      "branchIds": [
+        "pitadeli-champlain"
+      ],
+      "priceType": "menu",
+      "requirements": {
+        "app": false,
+        "registration": false,
+        "membership": null,
+        "code": null,
+        "minimumPurchase": 0,
+        "limitPerUser": null,
+        "note": "Published menu price; no coupon required. Order directly; delivery-platform pricing can differ."
+      },
+      "evidence": {
+        "url": "https://pitadeliwhitby.com/",
+        "checkedAt": "2026-11-11T03:19:15+00:00",
+        "matchedText": "Garden Salad - Small $8.40"
+      },
+      "minimumSpend": 8.4
+    },
+    {
+      "id": "pita-fattoush",
+      "brand": "Pita Deli",
+      "title": "Small fattoush salad",
+      "description": "Published at 1600 Champlain Ave, Whitby. Regular menu price; a discount is not claimed.",
+      "price": 8.75,
+      "url": "https://pitadeliwhitby.com/",
+      "days": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "kind": "meal",
+      "redemption": "Pickup / in-store",
+      "priceLabel": "before tax",
+      "icon": "🥗",
+      "color": "#e4ead6",
+      "checkedAt": "2026-11-11T03:19:15+00:00",
+      "terms": "Official menu for this specific address. Price checked on the restaurant’s website, not by placing an order. Tax, extras and delivery can cost more; confirm final total with the restaurant. Pita Deli lists Sunday as closed.",
+      "category": "side",
+      "serves": 1,
+      "healthier": true,
+      "healthReason": "A vegetable-based side. Dressing and bread toppings change the nutrition; this is not a full meal.",
+      "verification": "branch-menu",
+      "branchIds": [
+        "pitadeli-champlain"
+      ],
+      "priceType": "menu",
+      "requirements": {
+        "app": false,
+        "registration": false,
+        "membership": null,
+        "code": null,
+        "minimumPurchase": 0,
+        "limitPerUser": null,
+        "note": "Published menu price; no coupon required. Order directly; delivery-platform pricing can differ."
+      },
+      "evidence": {
+        "url": "https://pitadeliwhitby.com/",
+        "checkedAt": "2026-11-11T03:19:15+00:00",
+        "matchedText": "Fatoush Salad - Small $8.75"
+      },
+      "minimumSpend": 8.75
+    },
+    {
+      "id": "cork-falafel",
+      "brand": "Cork & Bean",
+      "title": "Falafel & hummus wrap",
+      "description": "Published at 8 Simcoe St N, Oshawa. Regular menu price; a discount is not claimed.",
+      "price": 10.9,
+      "url": "https://corkandbean.ca/oshawa/menu/",
+      "days": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "kind": "meal",
+      "redemption": "Pickup / in-store",
+      "priceLabel": "before tax",
+      "icon": "🥙",
+      "color": "#e4ead6",
+      "checkedAt": "2026-11-11T03:19:15+00:00",
+      "terms": "Official menu for this specific address. Price checked on the restaurant’s website, not by placing an order. Tax, extras and delivery can cost more; confirm final total with the restaurant. ",
+      "category": "main",
+      "serves": 1,
+      "healthier": true,
+      "healthReason": "Includes hummus, spinach, green pepper and red onion. Plant-forward; not a promise of low calories or sodium.",
+      "verification": "branch-menu",
+      "branchIds": [
+        "corkbean-simcoe"
+      ],
+      "priceType": "menu",
+      "requirements": {
+        "app": false,
+        "registration": false,
+        "membership": null,
+        "code": null,
+        "minimumPurchase": 0,
+        "limitPerUser": null,
+        "note": "Published menu price; no coupon required. Order directly; delivery-platform pricing can differ."
+      },
+      "evidence": {
+        "url": "https://corkandbean.ca/oshawa/menu/",
+        "checkedAt": "2026-11-11T03:19:15+00:00",
+        "matchedText": "Falafel Wrap VG 10.90 Falafel, hummus"
+      },
+      "minimumSpend": 10.9
+    },
+    {
+      "id": "osmows-monday",
+      "brand": "Osmow’s",
+      "title": "Chicken Shawarma Wrap Box special",
+      "description": "The official Canadian daily-special menu lists this dish for Monday. Check the local order page for participation.",
+      "price": 12.99,
+      "url": "https://osmows.com/dailyspecials/",
+      "days": [
+        "Monday"
+      ],
+      "kind": "meal",
+      "redemption": "Pickup / in-store",
+      "priceLabel": "before tax",
+      "icon": "🥙",
+      "color": "#ede2d2",
+      "checkedAt": "2026-11-11T03:19:15+00:00",
+      "terms": "Participating Canadian restaurants. Confirm the offer and availability at your chosen Durham branch. Delivery, upgrades and taxes can cost extra.",
+      "category": "meal",
+      "verification": "chain",
+      "serves": 1,
+      "requirements": {
+        "app": null,
+        "registration": null,
+        "membership": null,
+        "code": null,
+        "minimumPurchase": 0,
+        "limitPerUser": null,
+        "note": "Daily special only on the stated day. No end date published; branch price and order requirements need confirmation."
+      },
+      "healthier": false,
+      "branchIds": [],
+      "priceType": "offer",
+      "minimumSpend": 12.99
+    },
+    {
+      "id": "osmows-tuesday",
+      "brand": "Osmow’s",
+      "title": "Beef Shawarma OzBox special",
+      "description": "The official Canadian daily-special menu lists this dish for Tuesday. Check the local order page for participation.",
+      "price": 12.99,
+      "url": "https://osmows.com/dailyspecials/",
+      "days": [
+        "Tuesday"
+      ],
+      "kind": "meal",
+      "redemption": "Pickup / in-store",
+      "priceLabel": "before tax",
+      "icon": "🥙",
+      "color": "#ede2d2",
+      "checkedAt": "2026-11-11T03:19:15+00:00",
+      "terms": "Participating Canadian restaurants. Confirm the offer and availability at your chosen Durham branch. Delivery, upgrades and taxes can cost extra.",
+      "category": "meal",
+      "verification": "chain",
+      "serves": 1,
+      "requirements": {
+        "app": null,
+        "registration": null,
+        "membership": null,
+        "code": null,
+        "minimumPurchase": 0,
+        "limitPerUser": null,
+        "note": "Daily special only on the stated day. No end date published; branch price and order requirements need confirmation."
+      },
+      "healthier": false,
+      "branchIds": [],
+      "priceType": "offer",
+      "minimumSpend": 12.99
+    },
+    {
+      "id": "osmows-wednesday",
+      "brand": "Osmow’s",
+      "title": "Chicken Shawarma Poutine special",
+      "description": "The official Canadian daily-special menu lists this dish for Wednesday. Check the local order page for participation.",
+      "price": 12.99,
+      "url": "https://osmows.com/dailyspecials/",
+      "days": [
+        "Wednesday"
+      ],
+      "kind": "meal",
+      "redemption": "Pickup / in-store",
+      "priceLabel": "before tax",
+      "icon": "🥙",
+      "color": "#ede2d2",
+      "checkedAt": "2026-11-11T03:19:15+00:00",
+      "terms": "Participating Canadian restaurants. Confirm the offer and availability at your chosen Durham branch. Delivery, upgrades and taxes can cost extra.",
+      "category": "meal",
+      "verification": "chain",
+      "serves": 1,
+      "requirements": {
+        "app": null,
+        "registration": null,
+        "membership": null,
+        "code": null,
+        "minimumPurchase": 0,
+        "limitPerUser": null,
+        "note": "Daily special only on the stated day. No end date published; branch price and order requirements need confirmation."
+      },
+      "healthier": false,
+      "branchIds": [],
+      "priceType": "offer",
+      "minimumSpend": 12.99
+    },
+    {
+      "id": "osmows-thursday",
+      "brand": "Osmow’s",
+      "title": "Beef Shawarma Wrap Box special",
+      "description": "The official Canadian daily-special menu lists this dish for Thursday. Check the local order page for participation.",
+      "price": 12.99,
+      "url": "https://osmows.com/dailyspecials/",
+      "days": [
+        "Thursday"
+      ],
+      "kind": "meal",
+      "redemption": "Pickup / in-store",
+      "priceLabel": "before tax",
+      "icon": "🥙",
+      "color": "#ede2d2",
+      "checkedAt": "2026-11-11T03:19:15+00:00",
+      "terms": "Participating Canadian restaurants. Confirm the offer and availability at your chosen Durham branch. Delivery, upgrades and taxes can cost extra.",
+      "category": "meal",
+      "verification": "chain",
+      "serves": 1,
+      "requirements": {
+        "app": null,
+        "registration": null,
+        "membership": null,
+        "code": null,
+        "minimumPurchase": 0,
+        "limitPerUser": null,
+        "note": "Daily special only on the stated day. No end date published; branch price and order requirements need confirmation."
+      },
+      "healthier": false,
+      "branchIds": [],
+      "priceType": "offer",
+      "minimumSpend": 12.99
+    },
+    {
+      "id": "osmows-friday",
+      "brand": "Osmow’s",
+      "title": "Falafel OzBox special",
+      "description": "The official Canadian daily-special menu lists this dish for Friday. Check the local order page for participation.",
+      "price": 12.99,
+      "url": "https://osmows.com/dailyspecials/",
+      "days": [
+        "Friday"
+      ],
+      "kind": "meal",
+      "redemption": "Pickup / in-store",
+      "priceLabel": "before tax",
+      "icon": "🥙",
+      "color": "#ede2d2",
+      "checkedAt": "2026-11-11T03:19:15+00:00",
+      "terms": "Participating Canadian restaurants. Confirm the offer and availability at your chosen Durham branch. Delivery, upgrades and taxes can cost extra.",
+      "category": "meal",
+      "verification": "chain",
+      "serves": 1,
+      "requirements": {
+        "app": null,
+        "registration": null,
+        "membership": null,
+        "code": null,
+        "minimumPurchase": 0,
+        "limitPerUser": null,
+        "note": "Daily special only on the stated day. No end date published; branch price and order requirements need confirmation."
+      },
+      "healthier": false,
+      "branchIds": [],
+      "priceType": "offer",
+      "minimumSpend": 12.99
+    },
+    {
+      "id": "osmows-saturday",
+      "brand": "Osmow’s",
+      "title": "Lamb Shawarma OzBox special",
+      "description": "The official Canadian daily-special menu lists this dish for Saturday. Check the local order page for participation.",
+      "price": 12.99,
+      "url": "https://osmows.com/dailyspecials/",
+      "days": [
+        "Saturday"
+      ],
+      "kind": "meal",
+      "redemption": "Pickup / in-store",
+      "priceLabel": "before tax",
+      "icon": "🥙",
+      "color": "#ede2d2",
+      "checkedAt": "2026-11-11T03:19:15+00:00",
+      "terms": "Participating Canadian restaurants. Confirm the offer and availability at your chosen Durham branch. Delivery, upgrades and taxes can cost extra.",
+      "category": "meal",
+      "verification": "chain",
+      "serves": 1,
+      "requirements": {
+        "app": null,
+        "registration": null,
+        "membership": null,
+        "code": null,
+        "minimumPurchase": 0,
+        "limitPerUser": null,
+        "note": "Daily special only on the stated day. No end date published; branch price and order requirements need confirmation."
+      },
+      "healthier": false,
+      "branchIds": [],
+      "priceType": "offer",
+      "minimumSpend": 12.99
+    },
+    {
+      "id": "osmows-sunday",
+      "brand": "Osmow’s",
+      "title": "Mixed Shawarma OzBox special",
+      "description": "The official Canadian daily-special menu lists this dish for Sunday. Check the local order page for participation.",
+      "price": 12.99,
+      "url": "https://osmows.com/dailyspecials/",
+      "days": [
+        "Sunday"
+      ],
+      "kind": "meal",
+      "redemption": "Pickup / in-store",
+      "priceLabel": "before tax",
+      "icon": "🥙",
+      "color": "#ede2d2",
+      "checkedAt": "2026-11-11T03:19:15+00:00",
+      "terms": "Participating Canadian restaurants. Confirm the offer and availability at your chosen Durham branch. Delivery, upgrades and taxes can cost extra.",
+      "category": "meal",
+      "verification": "chain",
+      "serves": 1,
+      "requirements": {
+        "app": null,
+        "registration": null,
+        "membership": null,
+        "code": null,
+        "minimumPurchase": 0,
+        "limitPerUser": null,
+        "note": "Daily special only on the stated day. No end date published; branch price and order requirements need confirmation."
+      },
+      "healthier": false,
+      "branchIds": [],
+      "priceType": "offer",
+      "minimumSpend": 12.99
+    },
+    {
+      "id": "taco-tuesday",
+      "brand": "Taco Bell",
+      "title": "Tuesday taco",
+      "description": "A taco, not a full meal. The Canadian menu advertises Tuesday tacos; check the coupon wallet and your branch.",
+      "price": 2.0,
+      "url": "https://www.tacobell.ca/en/menu",
+      "days": [
+        "Tuesday"
+      ],
+      "kind": "meal",
+      "redemption": "Pickup / in-store",
+      "priceLabel": "before tax",
+      "icon": "🌮",
+      "color": "#efe7d2",
+      "checkedAt": "2026-11-11T03:19:15+00:00",
+      "terms": "Participating Canadian restaurants. Confirm the offer and availability at your chosen Durham branch. Delivery, upgrades and taxes can cost extra.",
+      "category": "snack",
+      "verification": "chain",
+      "requirements": {
+        "app": null,
+        "registration": null,
+        "membership": null,
+        "code": null,
+        "minimumPurchase": 0,
+        "limitPerUser": null,
+        "note": "Eligible fillings and any app or ordering restrictions must be checked on the official offer."
+      },
+      "serves": 1,
+      "healthier": false,
+      "branchIds": [],
+      "priceType": "offer",
+      "minimumSpend": 2.0
     },
     {
       "id": "mc-coupons",
@@ -230,8 +1005,24 @@
       "priceLabel": "before tax",
       "icon": "🍟",
       "color": "#f5e5cb",
-      "checkedAt": null,
-      "terms": "Coupon destination only: no particular discount or coupon code has been verified. Login, minimum spend, purchase limits and exclusions may apply. Confirm dates and your local branch in the app or website."
+      "checkedAt": "2026-11-11T03:19:15+00:00",
+      "terms": "Coupon destination only: no particular discount or coupon code has been verified. Login, minimum spend, purchase limits and exclusions may apply. Confirm dates and your local branch in the app or website.",
+      "category": "coupon",
+      "serves": 1,
+      "healthier": false,
+      "branchIds": [],
+      "verification": "unpriced",
+      "priceType": "destination",
+      "requirements": {
+        "app": null,
+        "registration": null,
+        "membership": null,
+        "code": null,
+        "minimumPurchase": 0,
+        "limitPerUser": null,
+        "note": "Check the official offer for app, account, coupon and order restrictions."
+      },
+      "minimumSpend": null
     },
     {
       "id": "kfc-coupons",
@@ -254,8 +1045,24 @@
       "priceLabel": "before tax",
       "icon": "🍗",
       "color": "#f4e0d6",
-      "checkedAt": null,
-      "terms": "Coupon destination only: no particular discount or coupon code has been verified. Login, minimum spend, purchase limits and exclusions may apply. Confirm dates and your local branch in the app or website."
+      "checkedAt": "2026-11-11T03:19:15+00:00",
+      "terms": "Coupon destination only: no particular discount or coupon code has been verified. Login, minimum spend, purchase limits and exclusions may apply. Confirm dates and your local branch in the app or website.",
+      "category": "coupon",
+      "serves": 1,
+      "healthier": false,
+      "branchIds": [],
+      "verification": "unpriced",
+      "priceType": "destination",
+      "requirements": {
+        "app": null,
+        "registration": null,
+        "membership": null,
+        "code": null,
+        "minimumPurchase": 0,
+        "limitPerUser": null,
+        "note": "Check the official offer for app, account, coupon and order restrictions."
+      },
+      "minimumSpend": null
     },
     {
       "id": "harveys-coupons",
@@ -278,8 +1085,24 @@
       "priceLabel": "before tax",
       "icon": "🍔",
       "color": "#ede6d7",
-      "checkedAt": null,
-      "terms": "Coupon destination only: no particular discount or coupon code has been verified. Login, minimum spend, purchase limits and exclusions may apply. Confirm dates and your local branch in the app or website."
+      "checkedAt": "2026-11-11T03:19:15+00:00",
+      "terms": "Coupon destination only: no particular discount or coupon code has been verified. Login, minimum spend, purchase limits and exclusions may apply. Confirm dates and your local branch in the app or website.",
+      "category": "coupon",
+      "serves": 1,
+      "healthier": false,
+      "branchIds": [],
+      "verification": "unpriced",
+      "priceType": "destination",
+      "requirements": {
+        "app": null,
+        "registration": null,
+        "membership": null,
+        "code": null,
+        "minimumPurchase": 0,
+        "limitPerUser": null,
+        "note": "Check the official offer for app, account, coupon and order restrictions."
+      },
+      "minimumSpend": null
     },
     {
       "id": "wendys-coupons",
@@ -302,8 +1125,24 @@
       "priceLabel": "before tax",
       "icon": "🍔",
       "color": "#f1ddd3",
-      "checkedAt": "2026-11-11T02:59:15+00:00",
-      "terms": "Coupon destination only: no particular discount or coupon code has been verified. Login, minimum spend, purchase limits and exclusions may apply. Confirm dates and your local branch in the app or website."
+      "checkedAt": "2026-11-11T03:19:15+00:00",
+      "terms": "Coupon destination only: no particular discount or coupon code has been verified. Login, minimum spend, purchase limits and exclusions may apply. Confirm dates and your local branch in the app or website.",
+      "category": "coupon",
+      "serves": 1,
+      "healthier": false,
+      "branchIds": [],
+      "verification": "unpriced",
+      "priceType": "destination",
+      "requirements": {
+        "app": null,
+        "registration": null,
+        "membership": null,
+        "code": null,
+        "minimumPurchase": 0,
+        "limitPerUser": null,
+        "note": "Check the official offer for app, account, coupon and order restrictions."
+      },
+      "minimumSpend": null
     },
     {
       "id": "subway-coupons",
@@ -326,8 +1165,24 @@
       "priceLabel": "before tax",
       "icon": "🥪",
       "color": "#e8edd6",
-      "checkedAt": "2026-11-11T02:59:15+00:00",
-      "terms": "Coupon destination only: no particular discount or coupon code has been verified. Login, minimum spend, purchase limits and exclusions may apply. Confirm dates and your local branch in the app or website."
+      "checkedAt": "2026-11-11T03:19:15+00:00",
+      "terms": "Coupon destination only: no particular discount or coupon code has been verified. Login, minimum spend, purchase limits and exclusions may apply. Confirm dates and your local branch in the app or website.",
+      "category": "coupon",
+      "serves": 1,
+      "healthier": false,
+      "branchIds": [],
+      "verification": "unpriced",
+      "priceType": "destination",
+      "requirements": {
+        "app": null,
+        "registration": null,
+        "membership": null,
+        "code": null,
+        "minimumPurchase": 0,
+        "limitPerUser": null,
+        "note": "Check the official offer for app, account, coupon and order restrictions."
+      },
+      "minimumSpend": null
     },
     {
       "id": "mary-coupons",
@@ -350,8 +1205,24 @@
       "priceLabel": "before tax",
       "icon": "🍗",
       "color": "#f2e4ca",
-      "checkedAt": "2026-11-11T02:59:15+00:00",
-      "terms": "Coupon destination only: no particular discount or coupon code has been verified. Login, minimum spend, purchase limits and exclusions may apply. Confirm dates and your local branch in the app or website."
+      "checkedAt": "2026-11-11T03:19:15+00:00",
+      "terms": "Coupon destination only: no particular discount or coupon code has been verified. Login, minimum spend, purchase limits and exclusions may apply. Confirm dates and your local branch in the app or website.",
+      "category": "coupon",
+      "serves": 1,
+      "healthier": false,
+      "branchIds": [],
+      "verification": "unpriced",
+      "priceType": "destination",
+      "requirements": {
+        "app": null,
+        "registration": null,
+        "membership": null,
+        "code": null,
+        "minimumPurchase": 0,
+        "limitPerUser": null,
+        "note": "Check the official offer for app, account, coupon and order restrictions."
+      },
+      "minimumSpend": null
     },
     {
       "id": "pizza-coupons",
@@ -374,8 +1245,24 @@
       "priceLabel": "before tax",
       "icon": "🍕",
       "color": "#f3e1ce",
-      "checkedAt": "2026-11-11T02:59:15+00:00",
-      "terms": "Coupon destination only: no particular discount or coupon code has been verified. Login, minimum spend, purchase limits and exclusions may apply. Confirm dates and your local branch in the app or website."
+      "checkedAt": "2026-11-11T03:19:15+00:00",
+      "terms": "Coupon destination only: no particular discount or coupon code has been verified. Login, minimum spend, purchase limits and exclusions may apply. Confirm dates and your local branch in the app or website.",
+      "category": "coupon",
+      "serves": 1,
+      "healthier": false,
+      "branchIds": [],
+      "verification": "unpriced",
+      "priceType": "destination",
+      "requirements": {
+        "app": null,
+        "registration": null,
+        "membership": null,
+        "code": null,
+        "minimumPurchase": 0,
+        "limitPerUser": null,
+        "note": "Check the official offer for app, account, coupon and order restrictions."
+      },
+      "minimumSpend": null
     },
     {
       "id": "tims-coupons",
@@ -399,7 +1286,463 @@
       "icon": "☕",
       "color": "#ece2d5",
       "checkedAt": null,
-      "terms": "Coupon destination only: no particular discount or coupon code has been verified. Login, minimum spend, purchase limits and exclusions may apply. Confirm dates and your local branch in the app or website."
+      "terms": "Coupon destination only: no particular discount or coupon code has been verified. Login, minimum spend, purchase limits and exclusions may apply. Confirm dates and your local branch in the app or website.",
+      "category": "coupon",
+      "serves": 1,
+      "healthier": false,
+      "branchIds": [],
+      "verification": "unpriced",
+      "priceType": "destination",
+      "requirements": {
+        "app": null,
+        "registration": null,
+        "membership": null,
+        "code": null,
+        "minimumPurchase": 0,
+        "limitPerUser": null,
+        "note": "Check the official offer for app, account, coupon and order restrictions."
+      },
+      "minimumSpend": null
+    },
+    {
+      "id": "bk-coupons",
+      "brand": "Burger King",
+      "title": "Royal Perks & Canadian offers",
+      "description": "Open the official Canadian offer or local ordering page. Availability and account requirements vary.",
+      "price": null,
+      "url": "https://www.burgerking.ca/offers",
+      "days": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "kind": "coupon",
+      "redemption": "Pickup / in-store",
+      "priceLabel": "before tax",
+      "icon": "🍔",
+      "color": "#efe7d2",
+      "checkedAt": "2026-11-11T03:19:15+00:00",
+      "terms": "No discount or code is guaranteed. Select your restaurant and inspect the current offer before ordering.",
+      "category": "coupon",
+      "serves": 1,
+      "healthier": false,
+      "branchIds": [],
+      "verification": "unpriced",
+      "priceType": "destination",
+      "requirements": {
+        "app": null,
+        "registration": null,
+        "membership": null,
+        "code": null,
+        "minimumPurchase": 0,
+        "limitPerUser": null,
+        "note": "Check the official offer for app, account, coupon and order restrictions."
+      },
+      "minimumSpend": null
+    },
+    {
+      "id": "aw-coupons",
+      "brand": "A&W",
+      "title": "Canadian coupons",
+      "description": "Open the official Canadian offer or local ordering page. Availability and account requirements vary.",
+      "price": null,
+      "url": "https://web.aw.ca/en/coupons",
+      "days": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "kind": "coupon",
+      "redemption": "Pickup / in-store",
+      "priceLabel": "before tax",
+      "icon": "🍔",
+      "color": "#efe7d2",
+      "checkedAt": null,
+      "terms": "No discount or code is guaranteed. Select your restaurant and inspect the current offer before ordering.",
+      "category": "coupon",
+      "serves": 1,
+      "healthier": false,
+      "branchIds": [],
+      "verification": "unpriced",
+      "priceType": "destination",
+      "requirements": {
+        "app": null,
+        "registration": null,
+        "membership": null,
+        "code": null,
+        "minimumPurchase": 0,
+        "limitPerUser": null,
+        "note": "Check the official offer for app, account, coupon and order restrictions."
+      },
+      "minimumSpend": null
+    },
+    {
+      "id": "popeyes-coupons",
+      "brand": "Popeyes",
+      "title": "Canadian offers",
+      "description": "Open the official Canadian offer or local ordering page. Availability and account requirements vary.",
+      "price": null,
+      "url": "https://www.popeyeschicken.ca/offers",
+      "days": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "kind": "coupon",
+      "redemption": "Pickup / in-store",
+      "priceLabel": "before tax",
+      "icon": "🍗",
+      "color": "#efe7d2",
+      "checkedAt": null,
+      "terms": "No discount or code is guaranteed. Select your restaurant and inspect the current offer before ordering.",
+      "category": "coupon",
+      "serves": 1,
+      "healthier": false,
+      "branchIds": [],
+      "verification": "unpriced",
+      "priceType": "destination",
+      "requirements": {
+        "app": null,
+        "registration": null,
+        "membership": null,
+        "code": null,
+        "minimumPurchase": 0,
+        "limitPerUser": null,
+        "note": "Check the official offer for app, account, coupon and order restrictions."
+      },
+      "minimumSpend": null
+    },
+    {
+      "id": "taco-coupons",
+      "brand": "Taco Bell",
+      "title": "Canadian coupon wallet",
+      "description": "Open the official Canadian offer or local ordering page. Availability and account requirements vary.",
+      "price": null,
+      "url": "https://www.tacobell.ca/en/coupons",
+      "days": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "kind": "coupon",
+      "redemption": "Pickup / in-store",
+      "priceLabel": "before tax",
+      "icon": "🌮",
+      "color": "#efe7d2",
+      "checkedAt": "2026-11-11T03:19:15+00:00",
+      "terms": "No discount or code is guaranteed. Select your restaurant and inspect the current offer before ordering.",
+      "category": "coupon",
+      "serves": 1,
+      "healthier": false,
+      "branchIds": [],
+      "verification": "unpriced",
+      "priceType": "destination",
+      "requirements": {
+        "app": null,
+        "registration": null,
+        "membership": null,
+        "code": null,
+        "minimumPurchase": 0,
+        "limitPerUser": null,
+        "note": "Check the official offer for app, account, coupon and order restrictions."
+      },
+      "minimumSpend": null
+    },
+    {
+      "id": "osmows-coupons",
+      "brand": "Osmow’s",
+      "title": "Daily specials & local ordering",
+      "description": "Open the official Canadian offer or local ordering page. Availability and account requirements vary.",
+      "price": null,
+      "url": "https://osmows.com/dailyspecials/",
+      "days": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "kind": "coupon",
+      "redemption": "Pickup / in-store",
+      "priceLabel": "before tax",
+      "icon": "🥙",
+      "color": "#efe7d2",
+      "checkedAt": "2026-11-11T03:19:15+00:00",
+      "terms": "No discount or code is guaranteed. Select your restaurant and inspect the current offer before ordering.",
+      "category": "coupon",
+      "serves": 1,
+      "healthier": false,
+      "branchIds": [],
+      "verification": "unpriced",
+      "priceType": "destination",
+      "requirements": {
+        "app": null,
+        "registration": null,
+        "membership": null,
+        "code": null,
+        "minimumPurchase": 0,
+        "limitPerUser": null,
+        "note": "Check the official offer for app, account, coupon and order restrictions."
+      },
+      "minimumSpend": null
+    },
+    {
+      "id": "pitapit-coupons",
+      "brand": "Pita Pit",
+      "title": "Whitby menu & local ordering",
+      "description": "Open the official Canadian offer or local ordering page. Availability and account requirements vary.",
+      "price": null,
+      "url": "https://pitapit.ca/restaurants/whitby/",
+      "days": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "kind": "coupon",
+      "redemption": "Pickup / in-store",
+      "priceLabel": "before tax",
+      "icon": "🥙",
+      "color": "#efe7d2",
+      "checkedAt": "2026-11-11T03:19:15+00:00",
+      "terms": "No discount or code is guaranteed. Select your restaurant and inspect the current offer before ordering.",
+      "category": "coupon",
+      "serves": 1,
+      "healthier": false,
+      "branchIds": [],
+      "verification": "unpriced",
+      "priceType": "destination",
+      "requirements": {
+        "app": null,
+        "registration": null,
+        "membership": null,
+        "code": null,
+        "minimumPurchase": 0,
+        "limitPerUser": null,
+        "note": "Check the official offer for app, account, coupon and order restrictions."
+      },
+      "minimumSpend": null
+    },
+    {
+      "id": "thai-coupons",
+      "brand": "Thai Express",
+      "title": "Current promotions & rewards",
+      "description": "Check current promotions and Blue Rewards terms. A new product promotion is not automatically a price discount.",
+      "price": null,
+      "url": "https://thaiexpress.ca/promotions/",
+      "days": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "kind": "coupon",
+      "redemption": "Pickup / in-store",
+      "priceLabel": "before tax",
+      "icon": "🍜",
+      "color": "#efe7d2",
+      "checkedAt": "2026-11-11T03:19:15+00:00",
+      "terms": "No discount or code is guaranteed. Select your restaurant and inspect the current offer before ordering.",
+      "category": "coupon",
+      "serves": 1,
+      "healthier": false,
+      "branchIds": [],
+      "verification": "unpriced",
+      "priceType": "destination",
+      "requirements": {
+        "app": null,
+        "registration": null,
+        "membership": null,
+        "code": null,
+        "minimumPurchase": 0,
+        "limitPerUser": null,
+        "note": "Check the official offer for app, account, coupon and order restrictions."
+      },
+      "minimumSpend": null
+    },
+    {
+      "id": "booster-coupons",
+      "brand": "Booster Juice",
+      "title": "Current promotions & Booster Rewards",
+      "description": "Check current smoothie and food promotions, then your Booster Rewards offers. Smoothies are drinks, not automatically complete meals.",
+      "price": null,
+      "url": "https://boosterjuice.com/en-ca/blogs/current-promotions",
+      "days": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "kind": "coupon",
+      "redemption": "Pickup / in-store",
+      "priceLabel": "before tax",
+      "icon": "🥤",
+      "color": "#efe7d2",
+      "checkedAt": "2026-11-11T03:19:15+00:00",
+      "terms": "No discount or code is guaranteed. Select your restaurant and inspect the current offer before ordering.",
+      "category": "coupon",
+      "serves": 1,
+      "healthier": false,
+      "branchIds": [],
+      "verification": "unpriced",
+      "priceType": "destination",
+      "requirements": {
+        "app": null,
+        "registration": null,
+        "membership": null,
+        "code": null,
+        "minimumPurchase": 0,
+        "limitPerUser": null,
+        "note": "Check the official offer for app, account, coupon and order restrictions."
+      },
+      "minimumSpend": null
+    },
+    {
+      "id": "barburrito-coupons",
+      "brand": "barBurrito",
+      "title": "Burrito promotions & app offers",
+      "description": "Check current dated promotions and your app account. Old National Burrito Day or Black Friday announcements do not establish a deal today.",
+      "price": null,
+      "url": "https://www.barburrito.ca/news/",
+      "days": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "kind": "coupon",
+      "redemption": "Pickup / in-store",
+      "priceLabel": "before tax",
+      "icon": "🌯",
+      "color": "#efe7d2",
+      "checkedAt": null,
+      "terms": "No discount or code is guaranteed. Select your restaurant and inspect the current offer before ordering.",
+      "category": "coupon",
+      "serves": 1,
+      "healthier": false,
+      "branchIds": [],
+      "verification": "unpriced",
+      "priceType": "destination",
+      "requirements": {
+        "app": null,
+        "registration": null,
+        "membership": null,
+        "code": null,
+        "minimumPurchase": 0,
+        "limitPerUser": null,
+        "note": "Check the official offer for app, account, coupon and order restrictions."
+      },
+      "minimumSpend": null
+    },
+    {
+      "id": "starbucks-coupons",
+      "brand": "Starbucks",
+      "title": "Canadian Rewards & personalized offers",
+      "description": "Check your Canadian Rewards account for eligible offers. Rewards can require prior purchases, membership or a qualifying reload; no free item is promised here.",
+      "price": null,
+      "url": "https://www.starbucks.ca/rewards",
+      "days": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "kind": "coupon",
+      "redemption": "Pickup / in-store",
+      "priceLabel": "before tax",
+      "icon": "☕",
+      "color": "#efe7d2",
+      "checkedAt": null,
+      "terms": "No discount or code is guaranteed. Select your restaurant and inspect the current offer before ordering.",
+      "category": "coupon",
+      "serves": 1,
+      "healthier": false,
+      "branchIds": [],
+      "verification": "unpriced",
+      "priceType": "destination",
+      "requirements": {
+        "app": null,
+        "registration": null,
+        "membership": null,
+        "code": null,
+        "minimumPurchase": 0,
+        "limitPerUser": null,
+        "note": "Check the official offer for app, account, coupon and order restrictions."
+      },
+      "minimumSpend": null
+    },
+    {
+      "id": "mucho-coupons",
+      "brand": "MUCHO Burrito",
+      "title": "Bowmanville menu & local ordering",
+      "description": "Select the Bowmanville restaurant to compare pickup menu prices, bowls and burritos. No published discount is being claimed.",
+      "price": null,
+      "url": "https://locations.muchoburrito.com/en-ca/on/bowmanville/MB0038",
+      "days": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "kind": "coupon",
+      "redemption": "Pickup / in-store",
+      "priceLabel": "before tax",
+      "icon": "🌯",
+      "color": "#efe7d2",
+      "checkedAt": "2026-11-11T03:19:15+00:00",
+      "terms": "No discount or code is guaranteed. Select your restaurant and inspect the current offer before ordering.",
+      "category": "coupon",
+      "serves": 1,
+      "healthier": false,
+      "branchIds": [],
+      "verification": "unpriced",
+      "priceType": "destination",
+      "requirements": {
+        "app": null,
+        "registration": null,
+        "membership": null,
+        "code": null,
+        "minimumPurchase": 0,
+        "limitPerUser": null,
+        "note": "Check the official offer for app, account, coupon and order restrictions."
+      },
+      "minimumSpend": null
     },
     {
       "id": "lighter-sub",
@@ -423,7 +1766,23 @@
       "icon": "🥪",
       "color": "#e3ead5",
       "checkedAt": null,
-      "terms": "A meal customization idea, not a verified discount or nutrition claim. The finished meal depends on bread, protein, sauces and portion. Compare the Canadian nutrition information and local menu price."
+      "terms": "A meal customization idea, not a verified discount or nutrition claim. The finished meal depends on bread, protein, sauces and portion. Compare the Canadian nutrition information and local menu price.",
+      "category": "idea",
+      "serves": 1,
+      "healthier": false,
+      "branchIds": [],
+      "verification": "unpriced",
+      "priceType": "destination",
+      "requirements": {
+        "app": null,
+        "registration": null,
+        "membership": null,
+        "code": null,
+        "minimumPurchase": 0,
+        "limitPerUser": null,
+        "note": "Check the official offer for app, account, coupon and order restrictions."
+      },
+      "minimumSpend": null
     },
     {
       "id": "lighter-wendys",
@@ -447,7 +1806,23 @@
       "icon": "🥔",
       "color": "#e7eadc",
       "checkedAt": null,
-      "terms": "Not a discounted meal; local availability and pricing must be checked. Toppings, sodium and serving size affect the meal. Use the Canadian menu nutrition for the exact item."
+      "terms": "Not a discounted meal; local availability and pricing must be checked. Toppings, sodium and serving size affect the meal. Use the Canadian menu nutrition for the exact item.",
+      "category": "idea",
+      "serves": 1,
+      "healthier": false,
+      "branchIds": [],
+      "verification": "unpriced",
+      "priceType": "destination",
+      "requirements": {
+        "app": null,
+        "registration": null,
+        "membership": null,
+        "code": null,
+        "minimumPurchase": 0,
+        "limitPerUser": null,
+        "note": "Check the official offer for app, account, coupon and order restrictions."
+      },
+      "minimumSpend": null
     },
     {
       "id": "lighter-harveys",
@@ -471,7 +1846,155 @@
       "icon": "🥬",
       "color": "#e4ecd6",
       "checkedAt": null,
-      "terms": "A suggested swap, not a verified discount. Extra toppings may cost more. Check ingredients, allergens and sodium in the restaurant nutrition information."
+      "terms": "A suggested swap, not a verified discount. Extra toppings may cost more. Check ingredients, allergens and sodium in the restaurant nutrition information.",
+      "category": "idea",
+      "serves": 1,
+      "healthier": false,
+      "branchIds": [],
+      "verification": "unpriced",
+      "priceType": "destination",
+      "requirements": {
+        "app": null,
+        "registration": null,
+        "membership": null,
+        "code": null,
+        "minimumPurchase": 0,
+        "limitPerUser": null,
+        "note": "Check the official offer for app, account, coupon and order restrictions."
+      },
+      "minimumSpend": null
+    }
+  ],
+  "branches": [
+    {
+      "id": "bigbites-rossland",
+      "brand": "Big Bites Shawarma",
+      "town": "Oshawa",
+      "address": "500 Rossland Road West, Unit 3, Oshawa",
+      "phone": "905-432-8838",
+      "url": "https://bigbitesshawarma.com/",
+      "addressVerified": true,
+      "checkedAt": "2026-11-11T03:19:15+00:00",
+      "hasPricedMenu": true
+    },
+    {
+      "id": "pitadeli-champlain",
+      "brand": "Pita Deli",
+      "town": "Whitby",
+      "address": "1600 Champlain Ave, Whitby",
+      "phone": "905-725-8152",
+      "url": "https://pitadeliwhitby.com/",
+      "addressVerified": true,
+      "checkedAt": "2026-11-11T03:19:15+00:00",
+      "hasPricedMenu": true
+    },
+    {
+      "id": "corkbean-simcoe",
+      "brand": "Cork & Bean",
+      "town": "Oshawa",
+      "address": "8 Simcoe St N, Oshawa",
+      "phone": "905-240-2326",
+      "url": "https://corkandbean.ca/oshawa/menu/",
+      "addressVerified": true,
+      "checkedAt": "2026-11-11T03:19:15+00:00",
+      "hasPricedMenu": true
+    },
+    {
+      "id": "mc-ritson",
+      "brand": "McDonald’s",
+      "town": "Oshawa",
+      "address": "501 Ritson Rd S, Oshawa",
+      "url": "https://www.mcdonalds.com/ca/en-ca/location/oshawa/oshawa-ritson/501-ritson-rd-s/3313.html",
+      "addressVerified": true,
+      "checkedAt": "2026-11-11T03:19:15+00:00",
+      "hasPricedMenu": false
+    },
+    {
+      "id": "wendys-king",
+      "brand": "Wendy’s",
+      "town": "Oshawa",
+      "address": "323 King St W, Oshawa",
+      "phone": "905-438-0001",
+      "url": "https://locations.wendys.com/canada/on/oshawa/323-king-st-w",
+      "addressVerified": true,
+      "checkedAt": "2026-11-11T03:19:15+00:00",
+      "hasPricedMenu": false
+    },
+    {
+      "id": "wendys-harmony",
+      "brand": "Wendy’s",
+      "town": "Oshawa",
+      "address": "1362 Harmony Road, Oshawa",
+      "phone": "905-404-4400",
+      "url": "https://locations.wendys.com/canada/on/oshawa/1362-harmony-road",
+      "addressVerified": true,
+      "checkedAt": "2026-11-11T03:19:15+00:00",
+      "hasPricedMenu": false
+    },
+    {
+      "id": "wendys-paisley",
+      "brand": "Wendy’s",
+      "town": "Whitby",
+      "address": "1 Paisley Ct, Whitby",
+      "phone": "905-665-1176",
+      "url": "https://locations.wendys.com/canada/on/whitby/1-paisley-ct",
+      "addressVerified": true,
+      "checkedAt": "2026-11-11T03:19:15+00:00",
+      "hasPricedMenu": false
+    },
+    {
+      "id": "osmows-garden",
+      "brand": "Osmow’s",
+      "town": "Whitby",
+      "address": "3050 Garden St Unit 123, Whitby",
+      "phone": "905-430-9075",
+      "url": "https://locations.osmows.com/on/whitby/3050-garden-st-unit-123",
+      "addressVerified": true,
+      "checkedAt": "2026-11-11T03:19:15+00:00",
+      "hasPricedMenu": false
+    },
+    {
+      "id": "osmows-baldwin",
+      "brand": "Osmow’s",
+      "town": "Whitby",
+      "address": "5969 Baldwin Street South, Whitby",
+      "url": "https://locations.osmows.com/on/whitby/5969-baldwin-street-south",
+      "addressVerified": true,
+      "checkedAt": "2026-11-11T03:19:15+00:00",
+      "hasPricedMenu": false
+    },
+    {
+      "id": "barburrito-shores",
+      "brand": "barBurrito",
+      "town": "Whitby",
+      "address": "617 Victoria St W, Whitby",
+      "phone": "905-665-3333",
+      "url": "https://www.barburrito.ca/location/whitby-shores/",
+      "addressVerified": true,
+      "checkedAt": "2026-11-11T03:19:15+00:00",
+      "hasPricedMenu": false
+    },
+    {
+      "id": "barburrito-bowmanville",
+      "brand": "barBurrito",
+      "town": "Bowmanville",
+      "address": "2360 Hwy 2, Bowmanville",
+      "phone": "905-419-9616",
+      "url": "https://www.barburrito.ca/location/bowmanville/",
+      "addressVerified": true,
+      "checkedAt": "2026-11-11T03:19:15+00:00",
+      "hasPricedMenu": false
+    },
+    {
+      "id": "thai-oshawacentre",
+      "brand": "Thai Express",
+      "town": "Oshawa",
+      "address": "419 King Street West #2232, Oshawa",
+      "phone": "905-433-8883",
+      "url": "https://thaiexpress.ca/location/oshawa-centre-on/",
+      "addressVerified": true,
+      "checkedAt": "2026-11-11T03:19:15+00:00",
+      "hasPricedMenu": false
     }
   ],
   "leads": [
@@ -479,103 +2002,434 @@
       "title": "Subway Gift Card Offer",
       "url": "https://www.savealoonie.com/food/subway-gift-card-offer/",
       "snippet": "Canadian coupon-site lead. Check the original merchant, location, eligible dates and conditions.",
-      "foundAt": "2026-11-11T02:59:15+00:00",
+      "foundAt": "2026-11-11T03:19:15+00:00",
       "publishedAt": "Tue, 10 Nov 2026 13:17:57 +0000",
-      "query": "SaveaLoonie RSS"
+      "query": "SaveaLoonie RSS",
+      "status": "unverified"
+    },
+    {
+      "title": "Sandwiches & Wraps",
+      "url": "https://www.mcdonalds.com/ca/en-ca/full-menu/sandwiches-and-wraps.html",
+      "snippet": "Official merchant link — inspect price, eligible dates and branch.",
+      "foundAt": "2026-11-11T03:19:15+00:00",
+      "query": "McDonald’s current offers",
+      "status": "official-link"
+    },
+    {
+      "title": "Late Night Deals",
+      "url": "https://www.harveys.ca/en/latenight.html",
+      "snippet": "Official merchant link — inspect price, eligible dates and branch.",
+      "foundAt": "2026-11-11T03:19:15+00:00",
+      "query": "Harvey’s deals",
+      "status": "official-link"
+    },
+    {
+      "title": "Online Coupons",
+      "url": "https://www.harveys.ca/en/downloadtheapp.html",
+      "snippet": "Official merchant link — inspect price, eligible dates and branch.",
+      "foundAt": "2026-11-11T03:19:15+00:00",
+      "query": "Harvey’s deals",
+      "status": "official-link"
+    },
+    {
+      "title": "SPECIALTY SHOTS",
+      "url": "https://boosterjuice.com/en-ca/collections/specialty-shots",
+      "snippet": "Official merchant link — inspect price, eligible dates and branch.",
+      "foundAt": "2026-11-11T03:19:15+00:00",
+      "query": "Booster Juice offers",
+      "status": "official-link"
+    },
+    {
+      "title": "Breakfast Wraps",
+      "url": "https://boosterjuice.com/en-ca/blogs/current-promotions/breakfast-wraps",
+      "snippet": "Official merchant link — inspect price, eligible dates and branch.",
+      "foundAt": "2026-11-11T03:19:15+00:00",
+      "query": "Booster Juice offers",
+      "status": "official-link"
+    },
+    {
+      "title": "Crunchwrap Supreme® Combo",
+      "url": "https://www.tacobell.ca/en/menu/crunchwrap_supreme__combo_1168",
+      "snippet": "Official merchant link — inspect price, eligible dates and branch.",
+      "foundAt": "2026-11-11T03:19:15+00:00",
+      "query": "Taco Bell current menu",
+      "status": "official-link"
+    },
+    {
+      "title": "Crunchwrap Supreme® Beef",
+      "url": "https://www.tacobell.ca/en/menu/crunchwrap_supreme__beef_78ac",
+      "snippet": "Official merchant link — inspect price, eligible dates and branch.",
+      "foundAt": "2026-11-11T03:19:15+00:00",
+      "query": "Taco Bell current menu",
+      "status": "official-link"
+    },
+    {
+      "title": "Black Bean Crunchwrap Supreme®",
+      "url": "https://www.tacobell.ca/en/menu/black_bean_crunchwrap_supreme___46de",
+      "snippet": "Official merchant link — inspect price, eligible dates and branch.",
+      "foundAt": "2026-11-11T03:19:15+00:00",
+      "query": "Taco Bell current menu",
+      "status": "official-link"
+    },
+    {
+      "title": "Crunchwrap Supreme® Combo",
+      "url": "https://www.tacobell.ca/en/menu/crunchwrap_supreme__combo_7b72",
+      "snippet": "Official merchant link — inspect price, eligible dates and branch.",
+      "foundAt": "2026-11-11T03:19:15+00:00",
+      "query": "Taco Bell current menu",
+      "status": "official-link"
+    },
+    {
+      "title": "Crunchwrap Supreme® Beef",
+      "url": "https://www.tacobell.ca/en/menu/crunchwrap_supreme__beef_cbf6",
+      "snippet": "Official merchant link — inspect price, eligible dates and branch.",
+      "foundAt": "2026-11-11T03:19:15+00:00",
+      "query": "Taco Bell current menu",
+      "status": "official-link"
+    },
+    {
+      "title": "Black Bean Crunchwrap Supreme®",
+      "url": "https://www.tacobell.ca/en/menu/black_bean_crunchwrap_supreme___a9d8",
+      "snippet": "Official merchant link — inspect price, eligible dates and branch.",
+      "foundAt": "2026-11-11T03:19:15+00:00",
+      "query": "Taco Bell current menu",
+      "status": "official-link"
+    },
+    {
+      "title": "Big Bites SHAWARMA · OSHAWA",
+      "url": "https://bigbitesshawarma.com/#top",
+      "snippet": "Official merchant link — inspect price, eligible dates and branch.",
+      "foundAt": "2026-11-11T03:19:15+00:00",
+      "query": "Big Bites Oshawa menu",
+      "status": "official-link"
+    },
+    {
+      "title": "SUBWAY Restaurants Canada Deals & Promotions: Buy One Footlong, Get One FREE + Get 20% off any Power Bowl + $5 Snackwich & Potato Rings",
+      "url": "https://smartcanucks.ca/subway-restaurants-canada-deals-promotions-buy-one-footlong-get-one-free-get-20-off-any-power-bowl-5-snackwich-potato-rings/",
+      "snippet": "Coupon search lead — requires merchant confirmation.",
+      "foundAt": "2026-11-11T03:19:15+00:00",
+      "query": "SmartCanucks restaurant search",
+      "status": "unverified"
+    },
+    {
+      "title": "Mandarin Restaurants Canada National Seniors Day Event Promotion: Save 50% Off Adult Buffet Meal for Lunch or Dinner on October 1",
+      "url": "https://smartcanucks.ca/mandarin-restaurants-canada-national-seniors-day-event-promotion-save-50-off-adult-buffet-meal-for-lunch-or-dinner-on-october-1/",
+      "snippet": "Coupon search lead — requires merchant confirmation.",
+      "foundAt": "2026-11-11T03:19:15+00:00",
+      "query": "SmartCanucks restaurant search",
+      "status": "unverified"
+    },
+    {
+      "title": "IKEA Canada Swedish Restaurant 50th Anniversary Event Promotion: Enjoy Traditional Breakfast For Only $1.00 this Weekend + Coupon for $50 Off $150 Purchases September 12-13",
+      "url": "https://smartcanucks.ca/ikea-canada-swedish-restaurant-50th-anniversary-event-promotion-enjoy-traditional-breakfast-for-only-1-00-this-weekend-coupon-for-50-off-150-purchases-september-12-13/",
+      "snippet": "Coupon search lead — requires merchant confirmation.",
+      "foundAt": "2026-11-11T03:19:15+00:00",
+      "query": "SmartCanucks restaurant search",
+      "status": "unverified"
+    },
+    {
+      "title": "Mr.Sub Restaurants Canada National Guest Fest Promo Code: Buy One, Get One Large Assorted and Super Assorted Sub FREE + More Deals",
+      "url": "https://smartcanucks.ca/mr-sub-restaurants-canada-national-guest-fest-promo-code-buy-one-get-one-large-assorted-and-super-assorted-sub-free/",
+      "snippet": "Coupon search lead — requires merchant confirmation.",
+      "foundAt": "2026-11-11T03:19:15+00:00",
+      "query": "SmartCanucks restaurant search",
+      "status": "unverified"
+    },
+    {
+      "title": "SUBWAY Restaurants Canada Deals & Promotions: Classic Footlongs Under $10 + More",
+      "url": "https://smartcanucks.ca/subway-restaurants-canada-deals-promotions-classic-footlongs-under-10-more/",
+      "snippet": "Coupon search lead — requires merchant confirmation.",
+      "foundAt": "2026-11-11T03:19:15+00:00",
+      "query": "SmartCanucks restaurant search",
+      "status": "unverified"
+    },
+    {
+      "title": "Burger King Canada FREE Fries + More Offers",
+      "url": "https://smartcanucks.ca/burger-king-canada-free-fries-more-offers/",
+      "snippet": "Coupon search lead — requires merchant confirmation.",
+      "foundAt": "2026-11-11T03:19:15+00:00",
+      "query": "SmartCanucks restaurant search",
+      "status": "unverified"
     }
   ],
   "sources": [
     {
       "name": "McDonald’s current offers",
       "url": "https://www.mcdonalds.com/ca/en-ca.html",
-      "ok": false,
-      "checkedAt": "2026-11-11T02:59:15+00:00",
-      "error": "HTTP Error 403: Forbidden"
+      "ok": true,
+      "checkedAt": "2026-11-11T03:19:15+00:00"
     },
     {
       "name": "McDonald’s price promise",
       "url": "https://www.mcdonalds.com/ca/en-ca/newsroom/article/McDonald-s-Canada-Announces-One-Year-Price-Promise-on--5-McValue--Meals-and--1-small-McCaf---Coffee-.html",
-      "ok": false,
-      "checkedAt": "2026-11-11T02:59:15+00:00",
-      "error": "HTTP Error 403: Forbidden"
+      "ok": true,
+      "checkedAt": "2026-11-11T03:19:15+00:00"
     },
     {
       "name": "KFC online offers",
       "url": "https://www.kfc.ca/menu/kfcca-exclusive-offers",
-      "ok": false,
-      "checkedAt": "2026-11-11T02:59:15+00:00",
-      "error": "The read operation timed out"
+      "ok": true,
+      "checkedAt": "2026-11-11T03:19:15+00:00"
     },
     {
       "name": "KFC Ontario coupons",
       "url": "https://www.kfc.ca/coupons",
-      "ok": false,
-      "checkedAt": "2026-11-11T02:59:15+00:00",
-      "error": "The read operation timed out"
+      "ok": true,
+      "checkedAt": "2026-11-11T03:19:15+00:00"
     },
     {
       "name": "Wendy’s Canada",
       "url": "https://www.wendys.com/en-ca",
       "ok": true,
-      "checkedAt": "2026-11-11T02:59:15+00:00"
+      "checkedAt": "2026-11-11T03:19:15+00:00"
     },
     {
       "name": "Harvey’s coupons",
       "url": "https://www.harveys.ca/en/coupons.html",
-      "ok": false,
-      "checkedAt": "2026-11-11T02:59:15+00:00",
-      "error": "HTTP Error 403: Forbidden"
+      "ok": true,
+      "checkedAt": "2026-11-11T03:19:15+00:00"
     },
     {
       "name": "Harvey’s deals",
       "url": "https://www.harveys.ca/en/deals.html",
-      "ok": false,
-      "checkedAt": "2026-11-11T02:59:15+00:00",
-      "error": "HTTP Error 403: Forbidden"
+      "ok": true,
+      "checkedAt": "2026-11-11T03:19:15+00:00"
     },
     {
       "name": "Subway Canada",
       "url": "https://www.subway.com/en-ca/",
       "ok": true,
-      "checkedAt": "2026-11-11T02:59:15+00:00"
+      "checkedAt": "2026-11-11T03:19:15+00:00"
     },
     {
       "name": "Mary Brown’s",
       "url": "https://marybrowns.com/",
       "ok": true,
-      "checkedAt": "2026-11-11T02:59:15+00:00"
+      "checkedAt": "2026-11-11T03:19:15+00:00"
     },
     {
       "name": "Pizza Pizza",
       "url": "https://www.pizzapizza.ca/for-you/",
       "ok": true,
-      "checkedAt": "2026-11-11T02:59:15+00:00"
+      "checkedAt": "2026-11-11T03:19:15+00:00"
     },
     {
       "name": "A&W Canada",
       "url": "https://web.aw.ca/en/our-menu",
       "ok": false,
-      "checkedAt": "2026-11-11T02:59:15+00:00",
+      "checkedAt": "2026-11-11T03:19:15+00:00",
       "error": "Empty, JavaScript-only or blocked response"
     },
     {
       "name": "Tim Hortons",
       "url": "https://www.timhortons.ca/offers",
       "ok": false,
-      "checkedAt": "2026-11-11T02:59:15+00:00",
+      "checkedAt": "2026-11-11T03:19:15+00:00",
       "error": "Empty, JavaScript-only or blocked response"
     },
     {
       "name": "SmartCanucks RSS",
       "url": "https://smartcanucks.ca/feed/",
       "ok": true,
-      "checkedAt": "2026-11-11T02:59:15+00:00"
+      "checkedAt": "2026-11-11T03:19:15+00:00"
     },
     {
       "name": "SaveaLoonie RSS",
       "url": "https://www.savealoonie.com/feed/",
       "ok": true,
-      "checkedAt": "2026-11-11T02:59:15+00:00"
+      "checkedAt": "2026-11-11T03:19:15+00:00"
+    },
+    {
+      "name": "Burger King offers",
+      "url": "https://www.burgerking.ca/offers",
+      "ok": true,
+      "checkedAt": "2026-11-11T03:19:15+00:00"
+    },
+    {
+      "name": "A&W offers",
+      "url": "https://web.aw.ca/en/coupons",
+      "ok": false,
+      "checkedAt": "2026-11-11T03:19:15+00:00",
+      "error": "Empty, JavaScript-only or blocked response"
+    },
+    {
+      "name": "Popeyes offers",
+      "url": "https://www.popeyeschicken.ca/offers",
+      "ok": false,
+      "checkedAt": "2026-11-11T03:19:15+00:00",
+      "error": "Unsupported compressed response"
+    },
+    {
+      "name": "Taco Bell offers",
+      "url": "https://www.tacobell.ca/en/coupons",
+      "ok": true,
+      "checkedAt": "2026-11-11T03:19:15+00:00"
+    },
+    {
+      "name": "Osmow’s offers",
+      "url": "https://osmows.com/dailyspecials/",
+      "ok": true,
+      "checkedAt": "2026-11-11T03:19:15+00:00"
+    },
+    {
+      "name": "Pita Pit offers",
+      "url": "https://pitapit.ca/restaurants/whitby/",
+      "ok": true,
+      "checkedAt": "2026-11-11T03:19:15+00:00"
+    },
+    {
+      "name": "Thai Express offers",
+      "url": "https://thaiexpress.ca/promotions/",
+      "ok": true,
+      "checkedAt": "2026-11-11T03:19:15+00:00"
+    },
+    {
+      "name": "Booster Juice offers",
+      "url": "https://boosterjuice.com/en-ca/blogs/current-promotions",
+      "ok": true,
+      "checkedAt": "2026-11-11T03:19:15+00:00"
+    },
+    {
+      "name": "barBurrito offers",
+      "url": "https://www.barburrito.ca/news/",
+      "ok": false,
+      "checkedAt": "2026-11-11T03:19:15+00:00",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "name": "Starbucks offers",
+      "url": "https://www.starbucks.ca/rewards",
+      "ok": false,
+      "checkedAt": "2026-11-11T03:19:15+00:00",
+      "error": "Empty, JavaScript-only or blocked response"
+    },
+    {
+      "name": "MUCHO Burrito offers",
+      "url": "https://locations.muchoburrito.com/en-ca/on/bowmanville/MB0038",
+      "ok": true,
+      "checkedAt": "2026-11-11T03:19:15+00:00"
+    },
+    {
+      "name": "Taco Bell current menu",
+      "url": "https://www.tacobell.ca/en/menu",
+      "ok": true,
+      "checkedAt": "2026-11-11T03:19:15+00:00"
+    },
+    {
+      "name": "Big Bites Oshawa menu",
+      "url": "https://bigbitesshawarma.com/",
+      "ok": true,
+      "checkedAt": "2026-11-11T03:19:15+00:00"
+    },
+    {
+      "name": "Pita Deli Whitby menu",
+      "url": "https://pitadeliwhitby.com/",
+      "ok": true,
+      "checkedAt": "2026-11-11T03:19:15+00:00"
+    },
+    {
+      "name": "Cork & Bean Oshawa menu",
+      "url": "https://corkandbean.ca/oshawa/menu/",
+      "ok": true,
+      "checkedAt": "2026-11-11T03:19:15+00:00"
+    },
+    {
+      "name": "RedFlagDeals RSS",
+      "url": "https://www.redflagdeals.com/rss/deals/",
+      "ok": false,
+      "checkedAt": "2026-11-11T03:19:15+00:00",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "name": "Bargainmoose RSS",
+      "url": "https://www.bargainmoose.ca/feed",
+      "ok": false,
+      "checkedAt": "2026-11-11T03:19:15+00:00",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "name": "SmartCanucks restaurant search",
+      "url": "https://smartcanucks.ca/?s=restaurant",
+      "ok": true,
+      "checkedAt": "2026-11-11T03:19:15+00:00"
+    },
+    {
+      "name": "SmartCanucks food search",
+      "url": "https://smartcanucks.ca/?s=food",
+      "ok": true,
+      "checkedAt": "2026-11-11T03:19:15+00:00"
+    },
+    {
+      "name": "Thai Express Blue Rewards",
+      "url": "https://thaiexpress.ca/blue-rewards/",
+      "ok": true,
+      "checkedAt": "2026-11-11T03:19:15+00:00"
+    },
+    {
+      "name": "Booster Juice rewards",
+      "url": "https://boosterjuice.com/en-ca/pages/booster-rewards",
+      "ok": true,
+      "checkedAt": "2026-11-11T03:19:15+00:00"
+    },
+    {
+      "name": "Starbucks Canada Rewards terms",
+      "url": "https://www.starbucks.ca/terms/rewards",
+      "ok": true,
+      "checkedAt": "2026-11-11T03:19:15+00:00"
+    },
+    {
+      "name": "McDonald’s 501 Ritson Rd S, Oshawa",
+      "url": "https://www.mcdonalds.com/ca/en-ca/location/oshawa/oshawa-ritson/501-ritson-rd-s/3313.html",
+      "ok": true,
+      "checkedAt": "2026-11-11T03:19:15+00:00"
+    },
+    {
+      "name": "Wendy’s 323 King St W, Oshawa",
+      "url": "https://locations.wendys.com/canada/on/oshawa/323-king-st-w",
+      "ok": true,
+      "checkedAt": "2026-11-11T03:19:15+00:00"
+    },
+    {
+      "name": "Wendy’s 1362 Harmony Road, Oshawa",
+      "url": "https://locations.wendys.com/canada/on/oshawa/1362-harmony-road",
+      "ok": true,
+      "checkedAt": "2026-11-11T03:19:15+00:00"
+    },
+    {
+      "name": "Wendy’s 1 Paisley Ct, Whitby",
+      "url": "https://locations.wendys.com/canada/on/whitby/1-paisley-ct",
+      "ok": true,
+      "checkedAt": "2026-11-11T03:19:15+00:00"
+    },
+    {
+      "name": "Osmow’s 3050 Garden St Unit 123, Whitby",
+      "url": "https://locations.osmows.com/on/whitby/3050-garden-st-unit-123",
+      "ok": true,
+      "checkedAt": "2026-11-11T03:19:15+00:00"
+    },
+    {
+      "name": "Osmow’s 5969 Baldwin Street South, Whitby",
+      "url": "https://locations.osmows.com/on/whitby/5969-baldwin-street-south",
+      "ok": true,
+      "checkedAt": "2026-11-11T03:19:15+00:00"
+    },
+    {
+      "name": "barBurrito 617 Victoria St W, Whitby",
+      "url": "https://www.barburrito.ca/location/whitby-shores/",
+      "ok": true,
+      "checkedAt": "2026-11-11T03:19:15+00:00"
+    },
+    {
+      "name": "barBurrito 2360 Hwy 2, Bowmanville",
+      "url": "https://www.barburrito.ca/location/bowmanville/",
+      "ok": true,
+      "checkedAt": "2026-11-11T03:19:15+00:00"
+    },
+    {
+      "name": "Thai Express 419 King Street West #2232, Oshawa",
+      "url": "https://thaiexpress.ca/location/oshawa-centre-on/",
+      "ok": true,
+      "checkedAt": "2026-11-11T03:19:15+00:00"
     }
   ]
 }
