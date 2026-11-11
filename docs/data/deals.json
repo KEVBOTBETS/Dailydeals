@@ -1,9 +1,34 @@
 {
-  "generatedAt": "2026-11-11T02:53:05+00:00",
+  "generatedAt": "2026-11-11T02:55:33+00:00",
   "timezone": "America/Toronto",
   "currency": "CAD",
   "region": "Durham Region, Ontario",
   "deals": [
+    {
+      "id": "wendys-canadian",
+      "brand": "Wendy’s",
+      "title": "Canadian Meal Deal",
+      "description": "A quarter-pound beef burger, Canadian fries, a Frosty and a drink. Ask for the Canadian Meal Deal.",
+      "price": 8.99,
+      "url": "https://www.wendys.com/en-ca",
+      "days": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "kind": "meal",
+      "redemption": "Pickup / in-store",
+      "priceLabel": "before tax",
+      "icon": "🍔",
+      "color": "#f1ddd3",
+      "checkedAt": "2026-11-11T02:55:33+00:00",
+      "terms": "Limited offer through November 15, 2026 at participating Canadian Wendy’s. Request the $8.99 Canadian Meal Deal. Upsizing and taxes extra.",
+      "ends": "2026-11-15"
+    },
     {
       "id": "mcvalue-lunch",
       "brand": "McDonald’s",
@@ -27,7 +52,8 @@
       "color": "#efe7d2",
       "checkedAt": "2026-11-11T02:53:05+00:00",
       "terms": "2026 one-year price promise announced January 13. Breakfast until 11 a.m. Prices before tax; not available through delivery. Product availability varies by restaurant. Confirm at your local branch.",
-      "ends": "2027-01-12"
+      "ends": "2027-01-12",
+      "sourceUnavailable": true
     },
     {
       "id": "mcvalue-breakfast",
@@ -52,7 +78,8 @@
       "color": "#efe7d2",
       "checkedAt": "2026-11-11T02:53:05+00:00",
       "terms": "2026 one-year price promise announced January 13. Breakfast until 11 a.m. Prices before tax; not available through delivery. Product availability varies by restaurant. Confirm at your local branch.",
-      "ends": "2027-01-12"
+      "ends": "2027-01-12",
+      "sourceUnavailable": true
     },
     {
       "id": "mc-coffee",
@@ -77,7 +104,8 @@
       "color": "#efe7d2",
       "checkedAt": "2026-11-11T02:53:05+00:00",
       "terms": "Small coffee only; 2026 price guarantee. Before tax; not available through delivery. Customizations may cost extra.",
-      "ends": "2027-01-12"
+      "ends": "2027-01-12",
+      "sourceUnavailable": true
     },
     {
       "id": "kfc-popcorn",
@@ -101,7 +129,8 @@
       "icon": "🍗",
       "color": "#f4e0d6",
       "checkedAt": "2026-11-11T02:53:05+00:00",
-      "terms": "Participating Canadian restaurants. Confirm the offer and availability at your chosen Durham branch. Delivery, upgrades and taxes can cost extra."
+      "terms": "Participating Canadian restaurants. Confirm the offer and availability at your chosen Durham branch. Delivery, upgrades and taxes can cost extra.",
+      "sourceUnavailable": true
     },
     {
       "id": "kfc-bucket-one",
@@ -125,32 +154,8 @@
       "icon": "🍗",
       "color": "#f4e0d6",
       "checkedAt": "2026-11-11T02:53:05+00:00",
-      "terms": "Participating Canadian restaurants. Confirm the offer and availability at your chosen Durham branch. Delivery, upgrades and taxes can cost extra."
-    },
-    {
-      "id": "wendys-canadian",
-      "brand": "Wendy’s",
-      "title": "Canadian Meal Deal",
-      "description": "A quarter-pound beef burger, Canadian fries, a Frosty and a drink. Ask for the Canadian Meal Deal.",
-      "price": 8.99,
-      "url": "https://www.wendys.com/en-ca",
-      "days": [
-        "Monday",
-        "Tuesday",
-        "Wednesday",
-        "Thursday",
-        "Friday",
-        "Saturday",
-        "Sunday"
-      ],
-      "kind": "meal",
-      "redemption": "Pickup / in-store",
-      "priceLabel": "before tax",
-      "icon": "🍔",
-      "color": "#f1ddd3",
-      "checkedAt": "2026-11-11T02:53:05+00:00",
-      "terms": "Limited offer through November 15, 2026 at participating Canadian Wendy’s. Request the $8.99 Canadian Meal Deal. Upsizing and taxes extra.",
-      "ends": "2026-11-15"
+      "terms": "Participating Canadian restaurants. Confirm the offer and availability at your chosen Durham branch. Delivery, upgrades and taxes can cost extra.",
+      "sourceUnavailable": true
     },
     {
       "id": "mc-fries",
@@ -175,7 +180,8 @@
         "2026-11-20"
       ],
       "starts": "2026-11-06",
-      "ends": "2026-11-20"
+      "ends": "2026-11-20",
+      "sourceUnavailable": true
     },
     {
       "id": "mc-dessert",
@@ -200,7 +206,8 @@
         "2026-11-23"
       ],
       "starts": "2026-11-09",
-      "ends": "2026-11-23"
+      "ends": "2026-11-23",
+      "sourceUnavailable": true
     },
     {
       "id": "mc-coupons",
@@ -223,7 +230,7 @@
       "priceLabel": "before tax",
       "icon": "🍟",
       "color": "#f5e5cb",
-      "checkedAt": "2026-11-11T02:53:05+00:00",
+      "checkedAt": null,
       "terms": "Coupon destination only: no particular discount or coupon code has been verified. Login, minimum spend, purchase limits and exclusions may apply. Confirm dates and your local branch in the app or website."
     },
     {
@@ -247,7 +254,7 @@
       "priceLabel": "before tax",
       "icon": "🍗",
       "color": "#f4e0d6",
-      "checkedAt": "2026-11-11T02:53:05+00:00",
+      "checkedAt": null,
       "terms": "Coupon destination only: no particular discount or coupon code has been verified. Login, minimum spend, purchase limits and exclusions may apply. Confirm dates and your local branch in the app or website."
     },
     {
@@ -271,7 +278,7 @@
       "priceLabel": "before tax",
       "icon": "🍔",
       "color": "#ede6d7",
-      "checkedAt": "2026-11-11T02:53:05+00:00",
+      "checkedAt": null,
       "terms": "Coupon destination only: no particular discount or coupon code has been verified. Login, minimum spend, purchase limits and exclusions may apply. Confirm dates and your local branch in the app or website."
     },
     {
@@ -295,7 +302,7 @@
       "priceLabel": "before tax",
       "icon": "🍔",
       "color": "#f1ddd3",
-      "checkedAt": "2026-11-11T02:53:05+00:00",
+      "checkedAt": "2026-11-11T02:55:33+00:00",
       "terms": "Coupon destination only: no particular discount or coupon code has been verified. Login, minimum spend, purchase limits and exclusions may apply. Confirm dates and your local branch in the app or website."
     },
     {
@@ -319,7 +326,7 @@
       "priceLabel": "before tax",
       "icon": "🥪",
       "color": "#e8edd6",
-      "checkedAt": "2026-11-11T02:53:05+00:00",
+      "checkedAt": "2026-11-11T02:55:33+00:00",
       "terms": "Coupon destination only: no particular discount or coupon code has been verified. Login, minimum spend, purchase limits and exclusions may apply. Confirm dates and your local branch in the app or website."
     },
     {
@@ -343,7 +350,7 @@
       "priceLabel": "before tax",
       "icon": "🍗",
       "color": "#f2e4ca",
-      "checkedAt": "2026-11-11T02:53:05+00:00",
+      "checkedAt": "2026-11-11T02:55:33+00:00",
       "terms": "Coupon destination only: no particular discount or coupon code has been verified. Login, minimum spend, purchase limits and exclusions may apply. Confirm dates and your local branch in the app or website."
     },
     {
@@ -367,7 +374,7 @@
       "priceLabel": "before tax",
       "icon": "🍕",
       "color": "#f3e1ce",
-      "checkedAt": "2026-11-11T02:53:05+00:00",
+      "checkedAt": "2026-11-11T02:55:33+00:00",
       "terms": "Coupon destination only: no particular discount or coupon code has been verified. Login, minimum spend, purchase limits and exclusions may apply. Confirm dates and your local branch in the app or website."
     },
     {
@@ -472,7 +479,7 @@
       "title": "Subway Gift Card Offer",
       "url": "https://www.savealoonie.com/food/subway-gift-card-offer/",
       "snippet": "Canadian coupon-site lead. Check the original merchant, location, eligible dates and conditions.",
-      "foundAt": "2026-11-11T02:53:05+00:00",
+      "foundAt": "2026-11-11T02:55:33+00:00",
       "publishedAt": "Tue, 10 Nov 2026 13:17:57 +0000",
       "query": "SaveaLoonie RSS"
     }
@@ -481,88 +488,94 @@
     {
       "name": "McDonald’s current offers",
       "url": "https://www.mcdonalds.com/ca/en-ca.html",
-      "ok": true,
-      "checkedAt": "2026-11-11T02:53:05+00:00"
+      "ok": false,
+      "checkedAt": "2026-11-11T02:55:33+00:00",
+      "error": "HTTP Error 403: Forbidden"
     },
     {
       "name": "McDonald’s price promise",
       "url": "https://www.mcdonalds.com/ca/en-ca/newsroom/article/McDonald-s-Canada-Announces-One-Year-Price-Promise-on--5-McValue--Meals-and--1-small-McCaf---Coffee-.html",
-      "ok": true,
-      "checkedAt": "2026-11-11T02:53:05+00:00"
+      "ok": false,
+      "checkedAt": "2026-11-11T02:55:33+00:00",
+      "error": "HTTP Error 403: Forbidden"
     },
     {
       "name": "KFC online offers",
       "url": "https://www.kfc.ca/menu/kfcca-exclusive-offers",
-      "ok": true,
-      "checkedAt": "2026-11-11T02:53:05+00:00"
+      "ok": false,
+      "checkedAt": "2026-11-11T02:55:33+00:00",
+      "error": "The read operation timed out"
     },
     {
       "name": "KFC Ontario coupons",
       "url": "https://www.kfc.ca/coupons",
-      "ok": true,
-      "checkedAt": "2026-11-11T02:53:05+00:00"
+      "ok": false,
+      "checkedAt": "2026-11-11T02:55:33+00:00",
+      "error": "The read operation timed out"
     },
     {
       "name": "Wendy’s Canada",
       "url": "https://www.wendys.com/en-ca",
       "ok": true,
-      "checkedAt": "2026-11-11T02:53:05+00:00"
+      "checkedAt": "2026-11-11T02:55:33+00:00"
     },
     {
       "name": "Harvey’s coupons",
       "url": "https://www.harveys.ca/en/coupons.html",
-      "ok": true,
-      "checkedAt": "2026-11-11T02:53:05+00:00"
+      "ok": false,
+      "checkedAt": "2026-11-11T02:55:33+00:00",
+      "error": "HTTP Error 403: Forbidden"
     },
     {
       "name": "Harvey’s deals",
       "url": "https://www.harveys.ca/en/deals.html",
-      "ok": true,
-      "checkedAt": "2026-11-11T02:53:05+00:00"
+      "ok": false,
+      "checkedAt": "2026-11-11T02:55:33+00:00",
+      "error": "HTTP Error 403: Forbidden"
     },
     {
       "name": "Subway Canada",
       "url": "https://www.subway.com/en-ca/",
       "ok": true,
-      "checkedAt": "2026-11-11T02:53:05+00:00"
+      "checkedAt": "2026-11-11T02:55:33+00:00"
     },
     {
       "name": "Mary Brown’s",
       "url": "https://marybrowns.com/",
       "ok": true,
-      "checkedAt": "2026-11-11T02:53:05+00:00"
+      "checkedAt": "2026-11-11T02:55:33+00:00"
     },
     {
       "name": "Pizza Pizza",
       "url": "https://www.pizzapizza.ca/for-you/",
       "ok": true,
-      "checkedAt": "2026-11-11T02:53:05+00:00"
+      "checkedAt": "2026-11-11T02:55:33+00:00"
     },
     {
       "name": "A&W Canada",
       "url": "https://web.aw.ca/en/our-menu",
       "ok": false,
-      "checkedAt": "2026-11-11T02:53:05+00:00",
+      "checkedAt": "2026-11-11T02:55:33+00:00",
       "error": "Empty, JavaScript-only or blocked response"
     },
     {
       "name": "Tim Hortons",
       "url": "https://www.timhortons.ca/offers",
       "ok": false,
-      "checkedAt": "2026-11-11T02:53:05+00:00",
+      "checkedAt": "2026-11-11T02:55:33+00:00",
       "error": "Empty, JavaScript-only or blocked response"
     },
     {
       "name": "SmartCanucks RSS",
       "url": "https://smartcanucks.ca/feed/",
       "ok": true,
-      "checkedAt": "2026-11-11T02:53:05+00:00"
+      "checkedAt": "2026-11-11T02:55:33+00:00"
     },
     {
       "name": "SaveaLoonie RSS",
       "url": "https://www.savealoonie.com/feed/",
       "ok": true,
-      "checkedAt": "2026-11-11T02:53:05+00:00"
+      "checkedAt": "2026-11-11T02:55:33+00:00"
     }
   ]
 }
