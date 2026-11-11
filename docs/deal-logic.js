@@ -16,12 +16,14 @@
     return d.days.includes(day)&&active(d,occurrence)&&(!d.dates||d.dates.includes(occurrence));
   }
   function category(d){return d.category||(d.kind==='meal'?'meal':d.kind==='lighter'?'idea':'coupon');}
+  function isShawarma(d){return /shawarma|osmow/i.test((d.brand||'')+' '+(d.title||''));}
   function cost(d){return typeof d.minimumSpend==='number'?d.minimumSpend:typeof d.price==='number'?d.price:null;}
   function fresh(d,now=new Date()){return !d.sourceUnavailable&&!!d.checkedAt&&now-new Date(d.checkedAt)<=3*86400000&&now-new Date(d.checkedAt)>=-86400000;}
   function branchVerified(d,branches=[],now=new Date()){
     return d.verification==='branch-menu'&&fresh(d,now)&&d.evidence?.url===d.url&&d.evidence?.matchedText&&d.branchIds?.some(id=>branches.some(b=>b.id===id&&b.addressVerified&&fresh(b,now)));
   }
   function inArea(d,s,branches=[]){
+    if(s.hideShawarma&&isShawarma(d))return false;
     const ids=d.branchIds||[];
     if(ids.length&&s.town&&s.town!=='Durham Region'&&!ids.some(id=>branches.some(b=>b.id===id&&b.town===s.town)))return false;
     if(s.branch&&s.branch!=='all'){
@@ -34,6 +36,7 @@
   function filter(deals,s,date=localDate(),branches=[]){
     let result=deals.filter(d=>scheduled(d,s.day,date)&&inArea(d,s,branches));
     if(s.type==='saved') result=result.filter(d=>s.saved.has(d.id));
+    else if(s.type==='daily')result=result.filter(d=>d.isDailySpecial);
     else if(s.type==='lighter')result=result.filter(d=>d.healthier||d.kind==='lighter');
     else if(s.type==='snacks')result=result.filter(d=>['snack','side','dessert'].includes(category(d)));
     else if(s.type!=='all') result=result.filter(d=>category(d)===s.type);
@@ -52,6 +55,6 @@
     const pairs=eligible.filter(d=>['meal','main'].includes(category(d))&&[1,2].includes(d.serves)&&!(d.requirements?.limitPerUser===1)&&!d.requirements?.minimumPurchase).map(d=>({deal:d,quantity:d.serves===2?1:2,total:Math.round(cost(d)*(d.serves===2?1:2)*100)/100})).filter(p=>s.budget==='all'||p.total<=Number(s.budget)).sort((a,b)=>a.total-b.total);
     return {meal,healthy,pair:pairs[0]||null};
   }
-  const api={days,localDate,today,nextDate,active,scheduled,category,cost,fresh,branchVerified,inArea,filter,highlights};
+  const api={days,localDate,today,nextDate,active,scheduled,category,isShawarma,cost,fresh,branchVerified,inArea,filter,highlights};
   if(typeof module!=='undefined')module.exports=api;else root.DealLogic=api;
 })(typeof window!=='undefined'?window:globalThis);

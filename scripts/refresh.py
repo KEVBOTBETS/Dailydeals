@@ -21,8 +21,10 @@ import xml.etree.ElementTree as ET
 from zoneinfo import ZoneInfo
 try:
     import catalog
+    import image_offers
 except ImportError:
     from scripts import catalog
+    from scripts import image_offers
 
 ROOT = Path(__file__).resolve().parents[1]
 DAYS = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
@@ -47,6 +49,7 @@ SOURCES = [
     ('SaveaLoonie RSS', 'https://www.savealoonie.com/feed/'),
 ]
 SOURCES = list(dict.fromkeys(SOURCES + catalog.EXTRA_SOURCES))
+SOURCES.append(('Thai Express daily Discovery Menu','https://thaiexpress.ca/discovery-menu-week/'))
 
 class TextParser(HTMLParser):
     def __init__(self):
@@ -169,11 +172,15 @@ def main():
     if target.exists():
         try:old=json.loads(target.read_text())
         except (ValueError,OSError):pass
-    offers=official_deals(pages)+catalog.local_deals(pages,deal,NOW,DAYS)+catalog.chain_additions(pages,deal,DAYS)
+    poster_offers,poster_source=image_offers.thai_discovery({r['url']:r['raw'] for r in results if r['ok']},deal,NOW)
+    offers=official_deals(pages)+catalog.local_deals(pages,deal,NOW,DAYS)+catalog.chain_additions(pages,deal,DAYS)+poster_offers
     # Preserve previously verified offers only during a short, labelled fetch failure.
     ids={d['id'] for d in offers}
     for d in old.get('deals',[]):
-        if d.get('kind')!='meal' or d['id'] in ids or d['url'] in pages:continue
+        if d.get('kind')!='meal' or d['id'] in ids:continue
+        if d.get('posterUrl'):
+            if not poster_source.get('error','').startswith('Poster source unavailable:'):continue
+        elif d['url'] in pages:continue
         try:age=(dt.datetime.fromisoformat(NOW)-dt.datetime.fromisoformat(d['checkedAt'])).total_seconds()/86400
         except (ValueError,TypeError,KeyError):continue
         if age<=3 and (not d.get('ends') or d['ends']>=TODAY):
@@ -182,7 +189,7 @@ def main():
     deals=catalog.enrich(offers+destinations(pages)+extra+healthier())
     leads=discover(results)+catalog.link_leads(results,NOW)
     unique={l['url']:l for l in leads}
-    payload=dict(schemaVersion=2,generatedAt=NOW,timezone='America/Toronto',currency='CAD',region='Durham Region, Ontario',deals=deals,branches=catalog.branch_records(pages,NOW),leads=catalog.match_leads(list(unique.values()),deals),sources=[{k:v for k,v in r.items() if k not in ('text','raw')} for r in results])
+    payload=dict(schemaVersion=2,generatedAt=NOW,timezone='America/Toronto',currency='CAD',region='Durham Region, Ontario',deals=deals,branches=catalog.branch_records(pages,NOW),leads=catalog.match_leads(list(unique.values()),deals),sources=[{k:v for k,v in r.items() if k not in ('text','raw')} for r in results]+[poster_source])
     target.parent.mkdir(parents=True,exist_ok=True)
     tmp=target.with_suffix('.tmp');tmp.write_text(json.dumps(payload,ensure_ascii=False,indent=2)+'\n');tmp.replace(target)
     print(f'Refreshed {len(offers)} published offers, {len(payload["leads"])} unverified leads; {len(pages)}/{len(SOURCES)} sources reachable.')

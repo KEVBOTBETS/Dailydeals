@@ -49,3 +49,13 @@ python -m http.server 8000 --directory docs
 Open `http://localhost:8000`. Use a server rather than opening `index.html` as a file because the feed is loaded with fetch. UI: `docs/index.html`, `docs/styles.css`, `docs/app.js`; filtering: `docs/deal-logic.js`; generated feed: `docs/data/deals.json`. Add source URLs and extraction rules with tests. Do not use a page-wide dollar amount for an unrelated product. Preserve original date lists for occasional offers rather than treating them as permanent weekday specials.
 
 External Google Fonts are optional; system font fallbacks work if blocked. No analytics, login, or precise location collection. Saved preferences stay on the visitor’s browser.
+
+## Food preference and Thai Express daily specials
+
+Shawarma restaurants and dishes are hidden by default from cards, restaurant and branch selectors, branch listings and best-value picks. The Hide shawarma restaurants preference is saved in this browser and survives Reset filters. Uncheck it to include those offers. This does not exclude unrelated vegetarian wraps or all Middle Eastern food.
+
+Thai Express Discovery Menu Duos ($13.88) and Trios ($14.88) are listed for all seven days, using the current official 2026 poster. Duo includes an imperial roll OR a 20 oz drink; Trio includes both. The default Any price budget includes offers above $10. The Daily specials filter makes the lineup easy to find. A deliberately selected budget cap still applies. These are advertised Canadian chain prices, not branch-confirmed prices.
+
+`scripts/thai_specials.json` records the manually inspected weekly image, exact SHA-256, dishes and prices. `image_offers.py` checks that official current promotions still link the Discovery Menu, its page still references the same campaign, and the official poster bytes still match. A changed/unlinked campaign removes the transcription until reviewed. A temporary image-download failure can keep an old quote for up to three days with its original timestamp and an unavailable-source label; it cannot reverify the quote. No OCR or image library is needed on GitHub Actions.
+
+When no branch-checked complete combo matches, the first highlight can feature the current Thai Express special instead; it is labelled as an advertised chain special requiring branch confirmation. Healthier and two-person comparisons still require branch menu evidence.

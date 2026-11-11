@@ -1,0 +1,18 @@
+{
+  "promotionUrl": "https://thaiexpress.ca/discovery-menu-week/",
+  "listingUrl": "https://thaiexpress.ca/promotions/",
+  "campaign": "TX26_NAT_001_SPRING_SUMMER_LTO_DM",
+  "posterUrl": "https://thaiexpress.ca/wp-content/uploads/2026/03/TX26_NAT_001_SPRING_SUMMER_LTO_DM_2200X950_WEBSITE_DESKTOP_WEEK_JAN26_EN-1024x442.png",
+  "sha256": "f4938650254253f510aa65e24fd57d255c05dc720f4de67efaec4eb8471be1a5",
+  "duoPrice": 13.88,
+  "trioPrice": 14.88,
+  "days": {
+    "Monday": "Pad Woon Sen",
+    "Tuesday": "Pad See Ew",
+    "Wednesday": "Lemongrass Stir-Fry",
+    "Thursday": "Green Curry",
+    "Friday": "Tamarind Chili Stir-Fry",
+    "Saturday": "Yellow Curry",
+    "Sunday": "Pad Thaï"
+  }
+}

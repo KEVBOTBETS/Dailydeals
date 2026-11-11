@@ -18,3 +18,17 @@ test('budget uses entire required spend, not free headline or per-person price',
 test('coffee is excluded from full meals and sorts after meals',()=>{const coffee={...local,id:'coffee',category:'drink',price:1,minimumSpend:1};const meal={...local,id:'meal',category:'meal'};assert.deepEqual(L.filter([coffee,meal],{...state,type:'meal'},'2026-11-10',branches).map(d=>d.id),['meal']);assert.deepEqual(L.filter([coffee,meal],{...state,sort:'recommended'},'2026-11-10',branches).map(d=>d.id),['meal','coffee']);});
 test('best meal for two compares whole basket and respects single-use limits',()=>{const pair={...local,id:'pair',category:'meal',price:16.99,minimumSpend:16.99,serves:2};assert.equal(L.highlights([local,pair],state,branches,'2026-11-10').pair.total,16.99);assert.equal(L.highlights([{...local,requirements:{limitPerUser:1}}],state,branches,'2026-11-10').pair,null);});
 test('healthier highlights exclude side-only lunches and unpriced ideas',()=>{const side={...local,category:'side',price:2,minimumSpend:2};assert.equal(L.highlights([local,side],state,branches,'2026-11-10').healthy.id,'local');});
+test('shawarma preference hides dishes and shawarma restaurants, including highlights',()=>{
+  const shawarma={...local,id:'shawarma',brand:'Big Bites Shawarma'};
+  const osmows={...local,id:'osmows',brand:'Osmow’s',title:'Falafel OzBox'};
+  assert.deepEqual(L.filter([local,shawarma,osmows],{...state,hideShawarma:true},'2026-11-10',branches).map(d=>d.id),['local']);
+  assert.equal(L.highlights([shawarma],{...state,hideShawarma:true},branches,'2026-11-10').healthy,null);
+  assert.equal(L.filter([shawarma],{...state,hideShawarma:false},'2026-11-10',branches).length,1);
+});
+test('Thai daily specials above $10 appear with no cap and follow the selected day',()=>{
+  const thai={...local,id:'thai',brand:'Thai Express',category:'meal',price:13.88,minimumSpend:13.88,days:['Tuesday'],isDailySpecial:true,branchIds:[],verification:'chain-image'};
+  assert.equal(L.filter([thai],{...state,day:'Tuesday',type:'daily',budget:'all',hideShawarma:true},'2026-11-10',branches).length,1);
+  assert.equal(L.filter([thai],{...state,day:'Tuesday',type:'daily',budget:'10'},'2026-11-10',branches).length,0);
+  assert.equal(L.filter([thai],{...state,day:'Tuesday',type:'meal',budget:'15'},'2026-11-10',branches).length,1);
+  assert.equal(L.filter([thai],{...state,day:'Wednesday',type:'daily'},'2026-11-10',branches).length,0);
+});
