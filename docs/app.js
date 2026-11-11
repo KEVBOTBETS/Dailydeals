@@ -1,4 +1,4 @@
-const boot = document.createElement('script');boot.src='./deal-logic.js';boot.onload=start;boot.onerror=()=>{document.getElementById('cards').textContent='Could not load the deal finder. Please reload.';};document.head.append(boot);
+const boot = document.createElement('script');boot.src='./deal-logic.js?v=20261110-2';boot.onload=start;boot.onerror=()=>{document.getElementById('cards').textContent='Could not load the deal finder. Please reload.';};document.head.append(boot);
 async function start(){
  const L=window.DealLogic,$=id=>document.getElementById(id),esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
  const safe=url=>{try{const u=new URL(url);return u.protocol==='https:'?u.href:'#';}catch{return '#';}};
