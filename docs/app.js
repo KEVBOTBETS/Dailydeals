@@ -12,7 +12,7 @@ async function start(){
  function near(brand){return 'https://www.google.com/maps/search/?api=1&query='+encodeURIComponent(brand+' '+(state.town==='Durham Region'?'Durham Region Ontario':state.town+' Ontario'));}
  function searchURL(query){return 'https://www.google.com/search?q='+encodeURIComponent(query);}
  function place(){return state.town==='Durham Region'?'Durham Region Ontario':state.town+' Ontario';}
- function renderDays(){ $('days').innerHTML=[...L.days,'Week'].map(day=>{const count=data.deals.filter(d=>d.kind==='meal'&&L.active(d)&&L.scheduled(d,day)).length;return `<button class="day ${day===L.today()?'today':''}" data-day="${day}" aria-pressed="${state.day===day}"><strong>${day==='Week'?'All week':day.slice(0,3)}</strong><small>${day==='Week'?'Plan ahead':count+' meal offers'}</small></button>`;}).join(''); }
+ function renderDays(){ $('days').innerHTML=[...L.days,'Week'].map(day=>{const count=data.deals.filter(d=>d.kind==='meal'&&L.scheduled(d,day)).length;return `<button class="day ${day===L.today()?'today':''}" data-day="${day}" aria-pressed="${state.day===day}"><strong>${day==='Week'?'All week':day.slice(0,3)}</strong><small>${day==='Week'?'Next 7 days':L.nextDate(day).slice(5).replace('-','/')+' · '+count+' offers'}</small></button>`;}).join(''); }
  function card(d){
    const age=d.checkedAt?(Date.now()-new Date(d.checkedAt))/86400000:Infinity;
    const status=d.kind==='lighter'?'Menu idea · price not verified':d.kind==='coupon'?'Coupon destination · offers vary':d.sourceUnavailable?'Source unavailable · recheck offer':age>3?'Needs a fresh check':'Published on official source';
@@ -24,7 +24,7 @@ async function start(){
    $('town').value=state.town;$('saved-count').textContent=state.saved.size;
    $('types').querySelectorAll('button').forEach(b=>b.setAttribute('aria-pressed',b.dataset.type===state.type));
    $('location-note').textContent=`Showing Canadian offers to check near ${state.town}, Ontario. “Find nearby” searches this area; individual branch participation is not verified.`;
-   $('results-title').textContent=`${visible.length} ${state.type==='lighter'?'healthier picks':'offers & ideas'} · ${state.day==='Week'?'all week':state.day}`;
+   $('results-title').textContent=`${visible.length} ${state.type==='lighter'?'healthier picks':'offers & ideas'} · ${state.day==='Week'?'next 7 days':state.day+' '+L.nextDate(state.day).slice(5).replace('-','/')}`;
    $('cards').innerHTML=visible.length?visible.map(card).join(''):'<div class="empty"><h3>No matches on this menu.</h3><p>Try a higher budget, another day or reset the filters. Unpriced coupons and menu ideas are excluded by budget limits.</p></div>';
    $('updated').textContent='Feed updated '+dateLabel(data.generatedAt)+' ET';
    const stale=(Date.now()-new Date(data.generatedAt))/86400000>2;
@@ -41,7 +41,7 @@ async function start(){
    $('source-health').innerHTML='<h4>Latest automated source checks</h4><p>A reachable page does not guarantee an offer or local availability.</p><div class="source-list">'+(data.sources||[]).map(s=>`<span>${esc(s.name)} · ${s.ok?'page reachable':'unavailable / blocked'}</span>`).join('')+'</div>';
  }
  function renderWeek(){
-   $('week-grid').innerHTML=L.days.map(day=>{const ds=data.deals.filter(d=>L.active(d)&&L.scheduled(d,day)&&d.kind==='meal'),price=Math.min(...ds.filter(d=>typeof d.price==='number').map(d=>d.price));return `<button class="week-box ${day===L.today()?'today':''}" data-weekday="${day}"><strong>${day} ${day===L.today()?'<em>TODAY</em>':''}</strong><b>${Number.isFinite(price)?'From $'+price.toFixed(2):'Check offers'}</b><small>${ds.length} meal / snack offers<br>Everyday offers included</small></button>`;}).join('');
+   $('week-grid').innerHTML=L.days.map(day=>{const ds=data.deals.filter(d=>L.scheduled(d,day)&&d.kind==='meal'),price=Math.min(...ds.filter(d=>typeof d.price==='number').map(d=>d.price));return `<button class="week-box ${day===L.today()?'today':''}" data-weekday="${day}"><strong>${day} ${day===L.today()?'<em>TODAY</em>':''}</strong><b>${Number.isFinite(price)?'From $'+price.toFixed(2):'Check offers'}</b><small>${L.nextDate(day).slice(5).replace('-','/')} · ${ds.length} meal / snack offers<br>Everyday offers included</small></button>`;}).join('');
  }
  $('days').addEventListener('click',e=>{const b=e.target.closest('[data-day]');if(b){state.day=b.dataset.day;render();}});
  $('types').addEventListener('click',e=>{const b=e.target.closest('[data-type]');if(b){state.type=b.dataset.type;render();}});

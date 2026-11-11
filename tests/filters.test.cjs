@@ -6,3 +6,5 @@ test('weekday-specific offers appear only on the correct day',()=>{assert.equal(
 test('saved filter intersects budget and day',()=>assert.deepEqual(L.filter(deals,{...state,type:'saved',saved:new Set(['two'])},'2026-11-10').map(d=>d.id),['two']));
 test('Toronto date remains Tuesday after midnight UTC',()=>{assert.equal(L.today(new Date('2026-11-11T02:00:00Z')),'Tuesday');assert.equal(L.localDate(new Date('2026-11-11T02:00:00Z')),'2026-11-10');});
 test('search is case insensitive',()=>assert.deepEqual(L.filter(deals,{...state,search:'CHEAP'},'2026-11-10').map(d=>d.id),['one']));
+test('next Monday excludes a deal expiring Sunday',()=>{const d={...deals[0],ends:'2026-11-15'};assert.equal(L.nextDate('Monday','2026-11-10'),'2026-11-16');assert.equal(L.filter([d],state,'2026-11-10').length,0);});
+test('one-off dates do not become recurring weekly deals',()=>{const d={...deals[0],days:['Friday'],dates:['2026-11-06']};assert.equal(L.filter([d],{...state,day:'Friday'},'2026-11-10').length,0);});

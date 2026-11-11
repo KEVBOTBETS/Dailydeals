@@ -4,7 +4,7 @@ A responsive, buildless fast-food deal board for **Durham Region, Ontario**, in 
 
 ## Features
 
-- Monday–Sunday and all-week views, Toronto-local “today”, search, budget and restaurant sorting.
+- Monday–Sunday upcoming-date and next-seven-day views, Toronto-local “today”, search, budget and restaurant sorting.
 - Pickering, Ajax, Whitby, Oshawa, Courtice, Bowmanville, Newcastle, Uxbridge, Port Perry, Beaverton and Cannington nearby searches. Town selection changes map/web queries; it does **not** assert branch participation.
 - Separate published offers, coupon/app destinations and healthier menu ideas. Unpriced coupons and healthier ideas are excluded by budget caps.
 - Favorites saved in this browser, source dates, explicit expiry dates and stale-feed warnings.
