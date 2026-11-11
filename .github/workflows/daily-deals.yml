@@ -1,0 +1,65 @@
+name: Refresh deals and publish
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+  schedule:
+    # Toronto: 7am / 1pm in winter, 8am / 2pm in summer.
+    - cron: '0 12,18 * * *'
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: daily-deals-pages
+  cancel-in-progress: false
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Check extraction and filtering rules
+        run: |
+          python -m unittest discover -s tests -v
+          node --test tests/*.test.cjs
+      - name: Search offers and coupon feeds
+        id: refresh
+        continue-on-error: true
+        run: python scripts/refresh.py
+      - name: Validate published feed
+        run: python scripts/validate.py
+      - name: Commit refreshed feed
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add docs/data/deals.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Refresh Canadian restaurant offers and coupon leads [skip ci]'
+            git push
+          fi
+      - name: Enable GitHub Pages
+        uses: actions/configure-pages@v5
+        with:
+          enablement: true
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+      - name: Report source outage
+        if: steps.refresh.outcome == 'failure'
+        run: echo '::warning::Source refresh failed. Published available feed; inspect source status and feed freshness.'
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: refresh
+    steps:
+      - name: Publish site
+        id: deployment
+        uses: actions/deploy-pages@v4

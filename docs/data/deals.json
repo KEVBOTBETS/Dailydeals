@@ -1,0 +1,568 @@
+{
+  "generatedAt": "2026-11-11T02:53:05+00:00",
+  "timezone": "America/Toronto",
+  "currency": "CAD",
+  "region": "Durham Region, Ontario",
+  "deals": [
+    {
+      "id": "mcvalue-lunch",
+      "brand": "McDonald’s",
+      "title": "McValue lunch & dinner meal",
+      "description": "Choose a McDouble, Junior Chicken or Chicken Snack Wrap meal with small fries and a small drink.",
+      "price": 5,
+      "url": "https://www.mcdonalds.com/ca/en-ca/newsroom/article/McDonald-s-Canada-Announces-One-Year-Price-Promise-on--5-McValue--Meals-and--1-small-McCaf---Coffee-.html",
+      "days": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "kind": "meal",
+      "redemption": "Lunch / dinner",
+      "priceLabel": "before tax",
+      "icon": "🍔",
+      "color": "#efe7d2",
+      "checkedAt": "2026-11-11T02:53:05+00:00",
+      "terms": "2026 one-year price promise announced January 13. Breakfast until 11 a.m. Prices before tax; not available through delivery. Product availability varies by restaurant. Confirm at your local branch.",
+      "ends": "2027-01-12"
+    },
+    {
+      "id": "mcvalue-breakfast",
+      "brand": "McDonald’s",
+      "title": "McValue breakfast meal",
+      "description": "Selected breakfast sandwiches or a bagel, with a hash brown and small coffee.",
+      "price": 5,
+      "url": "https://www.mcdonalds.com/ca/en-ca/newsroom/article/McDonald-s-Canada-Announces-One-Year-Price-Promise-on--5-McValue--Meals-and--1-small-McCaf---Coffee-.html",
+      "days": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "kind": "meal",
+      "redemption": "Before 11 a.m.",
+      "priceLabel": "before tax",
+      "icon": "🥯",
+      "color": "#efe7d2",
+      "checkedAt": "2026-11-11T02:53:05+00:00",
+      "terms": "2026 one-year price promise announced January 13. Breakfast until 11 a.m. Prices before tax; not available through delivery. Product availability varies by restaurant. Confirm at your local branch.",
+      "ends": "2027-01-12"
+    },
+    {
+      "id": "mc-coffee",
+      "brand": "McDonald’s",
+      "title": "Small McCafé coffee",
+      "description": "An everyday low-cost coffee stop. No minimum purchase stated in the price promise.",
+      "price": 1,
+      "url": "https://www.mcdonalds.com/ca/en-ca/newsroom/article/McDonald-s-Canada-Announces-One-Year-Price-Promise-on--5-McValue--Meals-and--1-small-McCaf---Coffee-.html",
+      "days": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "kind": "meal",
+      "redemption": "Pickup / in-store",
+      "priceLabel": "before tax",
+      "icon": "☕",
+      "color": "#efe7d2",
+      "checkedAt": "2026-11-11T02:53:05+00:00",
+      "terms": "Small coffee only; 2026 price guarantee. Before tax; not available through delivery. Customizations may cost extra.",
+      "ends": "2027-01-12"
+    },
+    {
+      "id": "kfc-popcorn",
+      "brand": "KFC",
+      "title": "Popcorn Fill Up",
+      "description": "Look for the Popcorn Fill Up in KFC’s exclusive online offers; choose your store to confirm contents and availability.",
+      "price": 4.95,
+      "url": "https://www.kfc.ca/menu/kfcca-exclusive-offers",
+      "days": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "kind": "meal",
+      "redemption": "Order online / pickup",
+      "priceLabel": "before tax",
+      "icon": "🍗",
+      "color": "#f4e0d6",
+      "checkedAt": "2026-11-11T02:53:05+00:00",
+      "terms": "Participating Canadian restaurants. Confirm the offer and availability at your chosen Durham branch. Delivery, upgrades and taxes can cost extra."
+    },
+    {
+      "id": "kfc-bucket-one",
+      "brand": "KFC",
+      "title": "Bucket for one",
+      "description": "A solo bucket listed on KFC Canada’s menu. Select your local restaurant for the exact contents and price.",
+      "price": 9.99,
+      "url": "https://www.kfc.ca/menu/kfcca-exclusive-offers",
+      "days": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "kind": "meal",
+      "redemption": "Order online / pickup",
+      "priceLabel": "before tax",
+      "icon": "🍗",
+      "color": "#f4e0d6",
+      "checkedAt": "2026-11-11T02:53:05+00:00",
+      "terms": "Participating Canadian restaurants. Confirm the offer and availability at your chosen Durham branch. Delivery, upgrades and taxes can cost extra."
+    },
+    {
+      "id": "wendys-canadian",
+      "brand": "Wendy’s",
+      "title": "Canadian Meal Deal",
+      "description": "A quarter-pound beef burger, Canadian fries, a Frosty and a drink. Ask for the Canadian Meal Deal.",
+      "price": 8.99,
+      "url": "https://www.wendys.com/en-ca",
+      "days": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "kind": "meal",
+      "redemption": "Pickup / in-store",
+      "priceLabel": "before tax",
+      "icon": "🍔",
+      "color": "#f1ddd3",
+      "checkedAt": "2026-11-11T02:53:05+00:00",
+      "terms": "Limited offer through November 15, 2026 at participating Canadian Wendy’s. Request the $8.99 Canadian Meal Deal. Upsizing and taxes extra.",
+      "ends": "2026-11-15"
+    },
+    {
+      "id": "mc-fries",
+      "brand": "McDonald’s",
+      "title": "Free fries with a purchase",
+      "description": "Get medium fries with a minimum $3 pre-tax purchase; a hash brown is offered before 11 a.m.",
+      "price": null,
+      "url": "https://www.mcdonalds.com/ca/en-ca.html",
+      "days": [
+        "Friday"
+      ],
+      "kind": "meal",
+      "redemption": "App + registration",
+      "priceLabel": "min. $3 purchase",
+      "icon": "🍟",
+      "color": "#f5e5cb",
+      "checkedAt": "2026-11-11T02:53:05+00:00",
+      "terms": "Only valid on 2026-11-06, 2026-11-13, 2026-11-20. At participating Canadian restaurants. App registration required, one redemption per user; full terms in-app. Free fries requires at least $3 pre-tax spending.",
+      "dates": [
+        "2026-11-06",
+        "2026-11-13",
+        "2026-11-20"
+      ],
+      "starts": "2026-11-06",
+      "ends": "2026-11-20"
+    },
+    {
+      "id": "mc-dessert",
+      "brand": "McDonald’s",
+      "title": "App dessert offer",
+      "description": "A Snack Size McFlurry or Sundae offer in the McDonald’s app. Premium McFlurry flavours excluded.",
+      "price": 2,
+      "url": "https://www.mcdonalds.com/ca/en-ca.html",
+      "days": [
+        "Monday"
+      ],
+      "kind": "meal",
+      "redemption": "App + registration",
+      "priceLabel": "before tax",
+      "icon": "🍦",
+      "color": "#f5e5cb",
+      "checkedAt": "2026-11-11T02:53:05+00:00",
+      "terms": "Only valid on 2026-11-09, 2026-11-16, 2026-11-23. At participating Canadian restaurants. App registration required, one redemption per user; full terms in-app. Free fries requires at least $3 pre-tax spending.",
+      "dates": [
+        "2026-11-09",
+        "2026-11-16",
+        "2026-11-23"
+      ],
+      "starts": "2026-11-09",
+      "ends": "2026-11-23"
+    },
+    {
+      "id": "mc-coupons",
+      "brand": "McDonald’s",
+      "title": "App offers & rewards",
+      "description": "Sign in to the Canadian app and select your restaurant to see account-specific offers.",
+      "price": null,
+      "url": "https://www.mcdonalds.com/ca/en-ca.html",
+      "days": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "kind": "coupon",
+      "redemption": "Check website / app",
+      "priceLabel": "before tax",
+      "icon": "🍟",
+      "color": "#f5e5cb",
+      "checkedAt": "2026-11-11T02:53:05+00:00",
+      "terms": "Coupon destination only: no particular discount or coupon code has been verified. Login, minimum spend, purchase limits and exclusions may apply. Confirm dates and your local branch in the app or website."
+    },
+    {
+      "id": "kfc-coupons",
+      "brand": "KFC",
+      "title": "Ontario printable coupons",
+      "description": "Choose Ontario on the official coupon page, then check the expiry and participating restaurants.",
+      "price": null,
+      "url": "https://www.kfc.ca/coupons",
+      "days": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "kind": "coupon",
+      "redemption": "Check website / app",
+      "priceLabel": "before tax",
+      "icon": "🍗",
+      "color": "#f4e0d6",
+      "checkedAt": "2026-11-11T02:53:05+00:00",
+      "terms": "Coupon destination only: no particular discount or coupon code has been verified. Login, minimum spend, purchase limits and exclusions may apply. Confirm dates and your local branch in the app or website."
+    },
+    {
+      "id": "harveys-coupons",
+      "brand": "Harvey’s",
+      "title": "Coupon wallet & late-night deals",
+      "description": "Check the coupon wallet. Published late-night app offers begin after 8 p.m.; store hours vary.",
+      "price": null,
+      "url": "https://www.harveys.ca/en/coupons.html",
+      "days": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "kind": "coupon",
+      "redemption": "Check website / app",
+      "priceLabel": "before tax",
+      "icon": "🍔",
+      "color": "#ede6d7",
+      "checkedAt": "2026-11-11T02:53:05+00:00",
+      "terms": "Coupon destination only: no particular discount or coupon code has been verified. Login, minimum spend, purchase limits and exclusions may apply. Confirm dates and your local branch in the app or website."
+    },
+    {
+      "id": "wendys-coupons",
+      "brand": "Wendy’s",
+      "title": "Canadian offers & rewards",
+      "description": "Check the Canadian menu and your app account for current offers before ordering.",
+      "price": null,
+      "url": "https://www.wendys.com/en-ca",
+      "days": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "kind": "coupon",
+      "redemption": "Check website / app",
+      "priceLabel": "before tax",
+      "icon": "🍔",
+      "color": "#f1ddd3",
+      "checkedAt": "2026-11-11T02:53:05+00:00",
+      "terms": "Coupon destination only: no particular discount or coupon code has been verified. Login, minimum spend, purchase limits and exclusions may apply. Confirm dates and your local branch in the app or website."
+    },
+    {
+      "id": "subway-coupons",
+      "brand": "Subway",
+      "title": "Rewards & sandwich offers",
+      "description": "Check the Canadian site or app for the offer available at your local restaurant.",
+      "price": null,
+      "url": "https://www.subway.com/en-ca/",
+      "days": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "kind": "coupon",
+      "redemption": "Check website / app",
+      "priceLabel": "before tax",
+      "icon": "🥪",
+      "color": "#e8edd6",
+      "checkedAt": "2026-11-11T02:53:05+00:00",
+      "terms": "Coupon destination only: no particular discount or coupon code has been verified. Login, minimum spend, purchase limits and exclusions may apply. Confirm dates and your local branch in the app or website."
+    },
+    {
+      "id": "mary-coupons",
+      "brand": "Mary Brown’s",
+      "title": "Local menu & app offers",
+      "description": "Select Ontario and your local restaurant for current offers and app deals.",
+      "price": null,
+      "url": "https://marybrowns.com/",
+      "days": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "kind": "coupon",
+      "redemption": "Check website / app",
+      "priceLabel": "before tax",
+      "icon": "🍗",
+      "color": "#f2e4ca",
+      "checkedAt": "2026-11-11T02:53:05+00:00",
+      "terms": "Coupon destination only: no particular discount or coupon code has been verified. Login, minimum spend, purchase limits and exclusions may apply. Confirm dates and your local branch in the app or website."
+    },
+    {
+      "id": "pizza-coupons",
+      "brand": "Pizza Pizza",
+      "title": "Pizza offers & ordering",
+      "description": "Explore official offers and compare pickup pricing for your selected store.",
+      "price": null,
+      "url": "https://www.pizzapizza.ca/for-you/",
+      "days": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "kind": "coupon",
+      "redemption": "Check website / app",
+      "priceLabel": "before tax",
+      "icon": "🍕",
+      "color": "#f3e1ce",
+      "checkedAt": "2026-11-11T02:53:05+00:00",
+      "terms": "Coupon destination only: no particular discount or coupon code has been verified. Login, minimum spend, purchase limits and exclusions may apply. Confirm dates and your local branch in the app or website."
+    },
+    {
+      "id": "tims-coupons",
+      "brand": "Tim Hortons",
+      "title": "App offer check",
+      "description": "Open the Canadian app for personalized coupons. Prices and offers vary by account and restaurant.",
+      "price": null,
+      "url": "https://www.timhortons.ca/offers",
+      "days": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "kind": "coupon",
+      "redemption": "Check website / app",
+      "priceLabel": "before tax",
+      "icon": "☕",
+      "color": "#ece2d5",
+      "checkedAt": null,
+      "terms": "Coupon destination only: no particular discount or coupon code has been verified. Login, minimum spend, purchase limits and exclusions may apply. Confirm dates and your local branch in the app or website."
+    },
+    {
+      "id": "lighter-sub",
+      "brand": "Subway",
+      "title": "Build a veg-packed smaller sub",
+      "description": "Try a 6-inch sandwich, add vegetables and compare sauces. Check the price before adding extras.",
+      "price": null,
+      "url": "https://www.subway.com/en-ca/menunutrition/nutrition",
+      "days": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "kind": "lighter",
+      "redemption": "Menu idea",
+      "priceLabel": "before tax",
+      "icon": "🥪",
+      "color": "#e3ead5",
+      "checkedAt": null,
+      "terms": "A meal customization idea, not a verified discount or nutrition claim. The finished meal depends on bread, protein, sauces and portion. Compare the Canadian nutrition information and local menu price."
+    },
+    {
+      "id": "lighter-wendys",
+      "brand": "Wendy’s",
+      "title": "Compare a chili-based lunch",
+      "description": "Look at a small chili or a plain baked potato as an alternative to fries, if your store offers them. Compare price and portion.",
+      "price": null,
+      "url": "https://order.wendys.com/ca/en/national/menu",
+      "days": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "kind": "lighter",
+      "redemption": "Menu idea",
+      "priceLabel": "before tax",
+      "icon": "🥔",
+      "color": "#e7eadc",
+      "checkedAt": null,
+      "terms": "Not a discounted meal; local availability and pricing must be checked. Toppings, sodium and serving size affect the meal. Use the Canadian menu nutrition for the exact item."
+    },
+    {
+      "id": "lighter-harveys",
+      "brand": "Harvey’s",
+      "title": "More garnish, simpler drink",
+      "description": "Ask for extra vegetables from the garnish counter. Compare a smaller burger and water with a full combo.",
+      "price": null,
+      "url": "https://www.harveys.ca/en/nutrition.html",
+      "days": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "kind": "lighter",
+      "redemption": "Menu idea",
+      "priceLabel": "before tax",
+      "icon": "🥬",
+      "color": "#e4ecd6",
+      "checkedAt": null,
+      "terms": "A suggested swap, not a verified discount. Extra toppings may cost more. Check ingredients, allergens and sodium in the restaurant nutrition information."
+    }
+  ],
+  "leads": [
+    {
+      "title": "Subway Gift Card Offer",
+      "url": "https://www.savealoonie.com/food/subway-gift-card-offer/",
+      "snippet": "Canadian coupon-site lead. Check the original merchant, location, eligible dates and conditions.",
+      "foundAt": "2026-11-11T02:53:05+00:00",
+      "publishedAt": "Tue, 10 Nov 2026 13:17:57 +0000",
+      "query": "SaveaLoonie RSS"
+    }
+  ],
+  "sources": [
+    {
+      "name": "McDonald’s current offers",
+      "url": "https://www.mcdonalds.com/ca/en-ca.html",
+      "ok": true,
+      "checkedAt": "2026-11-11T02:53:05+00:00"
+    },
+    {
+      "name": "McDonald’s price promise",
+      "url": "https://www.mcdonalds.com/ca/en-ca/newsroom/article/McDonald-s-Canada-Announces-One-Year-Price-Promise-on--5-McValue--Meals-and--1-small-McCaf---Coffee-.html",
+      "ok": true,
+      "checkedAt": "2026-11-11T02:53:05+00:00"
+    },
+    {
+      "name": "KFC online offers",
+      "url": "https://www.kfc.ca/menu/kfcca-exclusive-offers",
+      "ok": true,
+      "checkedAt": "2026-11-11T02:53:05+00:00"
+    },
+    {
+      "name": "KFC Ontario coupons",
+      "url": "https://www.kfc.ca/coupons",
+      "ok": true,
+      "checkedAt": "2026-11-11T02:53:05+00:00"
+    },
+    {
+      "name": "Wendy’s Canada",
+      "url": "https://www.wendys.com/en-ca",
+      "ok": true,
+      "checkedAt": "2026-11-11T02:53:05+00:00"
+    },
+    {
+      "name": "Harvey’s coupons",
+      "url": "https://www.harveys.ca/en/coupons.html",
+      "ok": true,
+      "checkedAt": "2026-11-11T02:53:05+00:00"
+    },
+    {
+      "name": "Harvey’s deals",
+      "url": "https://www.harveys.ca/en/deals.html",
+      "ok": true,
+      "checkedAt": "2026-11-11T02:53:05+00:00"
+    },
+    {
+      "name": "Subway Canada",
+      "url": "https://www.subway.com/en-ca/",
+      "ok": true,
+      "checkedAt": "2026-11-11T02:53:05+00:00"
+    },
+    {
+      "name": "Mary Brown’s",
+      "url": "https://marybrowns.com/",
+      "ok": true,
+      "checkedAt": "2026-11-11T02:53:05+00:00"
+    },
+    {
+      "name": "Pizza Pizza",
+      "url": "https://www.pizzapizza.ca/for-you/",
+      "ok": true,
+      "checkedAt": "2026-11-11T02:53:05+00:00"
+    },
+    {
+      "name": "A&W Canada",
+      "url": "https://web.aw.ca/en/our-menu",
+      "ok": false,
+      "checkedAt": "2026-11-11T02:53:05+00:00",
+      "error": "Empty, JavaScript-only or blocked response"
+    },
+    {
+      "name": "Tim Hortons",
+      "url": "https://www.timhortons.ca/offers",
+      "ok": false,
+      "checkedAt": "2026-11-11T02:53:05+00:00",
+      "error": "Empty, JavaScript-only or blocked response"
+    },
+    {
+      "name": "SmartCanucks RSS",
+      "url": "https://smartcanucks.ca/feed/",
+      "ok": true,
+      "checkedAt": "2026-11-11T02:53:05+00:00"
+    },
+    {
+      "name": "SaveaLoonie RSS",
+      "url": "https://www.savealoonie.com/feed/",
+      "ok": true,
+      "checkedAt": "2026-11-11T02:53:05+00:00"
+    }
+  ]
+}
