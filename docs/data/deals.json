@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-11-11T18:56:34+00:00",
+  "generatedAt": "2026-11-12T19:14:48+00:00",
   "timezone": "America/Toronto",
   "currency": "CAD",
   "region": "Durham Region, Ontario",
@@ -26,7 +26,7 @@
       "priceLabel": "before tax",
       "icon": "🍔",
       "color": "#f1ddd3",
-      "checkedAt": "2026-11-11T18:56:34+00:00",
+      "checkedAt": "2026-11-12T19:14:48+00:00",
       "terms": "Limited offer through November 15, 2026 at participating Canadian Wendy’s. Request the $8.99 Canadian Meal Deal. Upsizing and taxes extra.",
       "ends": "2026-11-15",
       "category": "meal",
@@ -67,7 +67,7 @@
       "priceLabel": "before tax",
       "icon": "🥙",
       "color": "#e4ead6",
-      "checkedAt": "2026-11-11T18:56:34+00:00",
+      "checkedAt": "2026-11-12T19:14:48+00:00",
       "terms": "Official menu for this specific address. Price checked on the restaurant’s website, not by placing an order. Tax, extras and delivery can cost more; confirm final total with the restaurant. ",
       "category": "main",
       "serves": 1,
@@ -89,7 +89,7 @@
       },
       "evidence": {
         "url": "https://bigbitesshawarma.com/",
-        "checkedAt": "2026-11-11T18:56:34+00:00",
+        "checkedAt": "2026-11-12T19:14:48+00:00",
         "matchedText": "Falafel Wrap Vegan $9.99"
       },
       "minimumSpend": 9.99
@@ -115,7 +115,7 @@
       "priceLabel": "before tax",
       "icon": "🥙",
       "color": "#e4ead6",
-      "checkedAt": "2026-11-11T18:56:34+00:00",
+      "checkedAt": "2026-11-12T19:14:48+00:00",
       "terms": "Official menu for this specific address. Price checked on the restaurant’s website, not by placing an order. Tax, extras and delivery can cost more; confirm final total with the restaurant. ",
       "category": "main",
       "serves": 1,
@@ -137,7 +137,7 @@
       },
       "evidence": {
         "url": "https://bigbitesshawarma.com/",
-        "checkedAt": "2026-11-11T18:56:34+00:00",
+        "checkedAt": "2026-11-12T19:14:48+00:00",
         "matchedText": "Chicken Wrap $11.99"
       },
       "minimumSpend": 11.99
@@ -163,7 +163,7 @@
       "priceLabel": "before tax",
       "icon": "🥙",
       "color": "#e4ead6",
-      "checkedAt": "2026-11-11T18:56:34+00:00",
+      "checkedAt": "2026-11-12T19:14:48+00:00",
       "terms": "Official menu for this specific address. Price checked on the restaurant’s website, not by placing an order. Tax, extras and delivery can cost more; confirm final total with the restaurant. ",
       "category": "meal",
       "serves": 2,
@@ -185,7 +185,7 @@
       },
       "evidence": {
         "url": "https://bigbitesshawarma.com/",
-        "checkedAt": "2026-11-11T18:56:34+00:00",
+        "checkedAt": "2026-11-12T19:14:48+00:00",
         "matchedText": "2 Falafel Wraps + 2 Drinks Vegan $16.99"
       },
       "minimumSpend": 16.99
@@ -211,7 +211,7 @@
       "priceLabel": "before tax",
       "icon": "🥙",
       "color": "#e4ead6",
-      "checkedAt": "2026-11-11T18:56:34+00:00",
+      "checkedAt": "2026-11-12T19:14:48+00:00",
       "terms": "Official menu for this specific address. Price checked on the restaurant’s website, not by placing an order. Tax, extras and delivery can cost more; confirm final total with the restaurant. ",
       "category": "meal",
       "serves": 2,
@@ -233,7 +233,7 @@
       },
       "evidence": {
         "url": "https://bigbitesshawarma.com/",
-        "checkedAt": "2026-11-11T18:56:34+00:00",
+        "checkedAt": "2026-11-12T19:14:48+00:00",
         "matchedText": "2 Chicken Wraps + 2 Drinks $20.99"
       },
       "minimumSpend": 20.99
@@ -258,7 +258,7 @@
       "priceLabel": "before tax",
       "icon": "🥙",
       "color": "#e4ead6",
-      "checkedAt": "2026-11-11T18:56:34+00:00",
+      "checkedAt": "2026-11-12T19:14:48+00:00",
       "terms": "Official menu for this specific address. Price checked on the restaurant’s website, not by placing an order. Tax, extras and delivery can cost more; confirm final total with the restaurant. Pita Deli lists Sunday as closed.",
       "category": "main",
       "serves": 1,
@@ -280,7 +280,7 @@
       },
       "evidence": {
         "url": "https://pitadeliwhitby.com/",
-        "checkedAt": "2026-11-11T18:56:34+00:00",
+        "checkedAt": "2026-11-12T19:14:48+00:00",
         "matchedText": "Vegetarian $11.95"
       },
       "minimumSpend": 11.95
@@ -305,7 +305,7 @@
       "priceLabel": "before tax",
       "icon": "🥗",
       "color": "#e4ead6",
-      "checkedAt": "2026-11-11T18:56:34+00:00",
+      "checkedAt": "2026-11-12T19:14:48+00:00",
       "terms": "Official menu for this specific address. Price checked on the restaurant’s website, not by placing an order. Tax, extras and delivery can cost more; confirm final total with the restaurant. Pita Deli lists Sunday as closed.",
       "category": "side",
       "serves": 1,
@@ -327,7 +327,7 @@
       },
       "evidence": {
         "url": "https://pitadeliwhitby.com/",
-        "checkedAt": "2026-11-11T18:56:34+00:00",
+        "checkedAt": "2026-11-12T19:14:48+00:00",
         "matchedText": "Garden Salad - Small $8.40"
       },
       "minimumSpend": 8.4
@@ -352,7 +352,7 @@
       "priceLabel": "before tax",
       "icon": "🥗",
       "color": "#e4ead6",
-      "checkedAt": "2026-11-11T18:56:34+00:00",
+      "checkedAt": "2026-11-12T19:14:48+00:00",
       "terms": "Official menu for this specific address. Price checked on the restaurant’s website, not by placing an order. Tax, extras and delivery can cost more; confirm final total with the restaurant. Pita Deli lists Sunday as closed.",
       "category": "side",
       "serves": 1,
@@ -374,7 +374,7 @@
       },
       "evidence": {
         "url": "https://pitadeliwhitby.com/",
-        "checkedAt": "2026-11-11T18:56:34+00:00",
+        "checkedAt": "2026-11-12T19:14:48+00:00",
         "matchedText": "Fatoush Salad - Small $8.75"
       },
       "minimumSpend": 8.75
@@ -400,7 +400,7 @@
       "priceLabel": "before tax",
       "icon": "🥙",
       "color": "#e4ead6",
-      "checkedAt": "2026-11-11T18:56:34+00:00",
+      "checkedAt": "2026-11-12T19:14:48+00:00",
       "terms": "Official menu for this specific address. Price checked on the restaurant’s website, not by placing an order. Tax, extras and delivery can cost more; confirm final total with the restaurant. ",
       "category": "main",
       "serves": 1,
@@ -422,7 +422,7 @@
       },
       "evidence": {
         "url": "https://corkandbean.ca/oshawa/menu/",
-        "checkedAt": "2026-11-11T18:56:34+00:00",
+        "checkedAt": "2026-11-12T19:14:48+00:00",
         "matchedText": "Falafel Wrap VG 10.90 Falafel, hummus"
       },
       "minimumSpend": 10.9
@@ -442,7 +442,7 @@
       "priceLabel": "before tax",
       "icon": "🥙",
       "color": "#ede2d2",
-      "checkedAt": "2026-11-11T18:56:34+00:00",
+      "checkedAt": "2026-11-12T19:14:48+00:00",
       "terms": "Participating Canadian restaurants. Confirm the offer and availability at your chosen Durham branch. Delivery, upgrades and taxes can cost extra.",
       "category": "meal",
       "verification": "chain",
@@ -476,7 +476,7 @@
       "priceLabel": "before tax",
       "icon": "🥙",
       "color": "#ede2d2",
-      "checkedAt": "2026-11-11T18:56:34+00:00",
+      "checkedAt": "2026-11-12T19:14:48+00:00",
       "terms": "Participating Canadian restaurants. Confirm the offer and availability at your chosen Durham branch. Delivery, upgrades and taxes can cost extra.",
       "category": "meal",
       "verification": "chain",
@@ -510,7 +510,7 @@
       "priceLabel": "before tax",
       "icon": "🥙",
       "color": "#ede2d2",
-      "checkedAt": "2026-11-11T18:56:34+00:00",
+      "checkedAt": "2026-11-12T19:14:48+00:00",
       "terms": "Participating Canadian restaurants. Confirm the offer and availability at your chosen Durham branch. Delivery, upgrades and taxes can cost extra.",
       "category": "meal",
       "verification": "chain",
@@ -544,7 +544,7 @@
       "priceLabel": "before tax",
       "icon": "🥙",
       "color": "#ede2d2",
-      "checkedAt": "2026-11-11T18:56:34+00:00",
+      "checkedAt": "2026-11-12T19:14:48+00:00",
       "terms": "Participating Canadian restaurants. Confirm the offer and availability at your chosen Durham branch. Delivery, upgrades and taxes can cost extra.",
       "category": "meal",
       "verification": "chain",
@@ -578,7 +578,7 @@
       "priceLabel": "before tax",
       "icon": "🥙",
       "color": "#ede2d2",
-      "checkedAt": "2026-11-11T18:56:34+00:00",
+      "checkedAt": "2026-11-12T19:14:48+00:00",
       "terms": "Participating Canadian restaurants. Confirm the offer and availability at your chosen Durham branch. Delivery, upgrades and taxes can cost extra.",
       "category": "meal",
       "verification": "chain",
@@ -612,7 +612,7 @@
       "priceLabel": "before tax",
       "icon": "🥙",
       "color": "#ede2d2",
-      "checkedAt": "2026-11-11T18:56:34+00:00",
+      "checkedAt": "2026-11-12T19:14:48+00:00",
       "terms": "Participating Canadian restaurants. Confirm the offer and availability at your chosen Durham branch. Delivery, upgrades and taxes can cost extra.",
       "category": "meal",
       "verification": "chain",
@@ -646,7 +646,7 @@
       "priceLabel": "before tax",
       "icon": "🥙",
       "color": "#ede2d2",
-      "checkedAt": "2026-11-11T18:56:34+00:00",
+      "checkedAt": "2026-11-12T19:14:48+00:00",
       "terms": "Participating Canadian restaurants. Confirm the offer and availability at your chosen Durham branch. Delivery, upgrades and taxes can cost extra.",
       "category": "meal",
       "verification": "chain",
@@ -680,7 +680,7 @@
       "priceLabel": "before tax",
       "icon": "🌮",
       "color": "#efe7d2",
-      "checkedAt": "2026-11-11T18:56:34+00:00",
+      "checkedAt": "2026-11-12T19:14:48+00:00",
       "terms": "Participating Canadian restaurants. Confirm the offer and availability at your chosen Durham branch. Delivery, upgrades and taxes can cost extra.",
       "category": "snack",
       "verification": "chain",
@@ -714,7 +714,7 @@
       "priceLabel": "before tax",
       "icon": "🍜",
       "color": "#f4dfd9",
-      "checkedAt": "2026-11-11T18:56:34+00:00",
+      "checkedAt": "2026-11-12T19:14:48+00:00",
       "terms": "Transcribed from the current official Canadian Discovery Menu poster and rechecked against its exact image. Chain-wide advertised price; the Oshawa branch price and final tax/extra charges are not confirmed. No end date is published; the listing is removed when the linked campaign or poster changes.",
       "category": "meal",
       "isDailySpecial": true,
@@ -755,7 +755,7 @@
       "priceLabel": "before tax",
       "icon": "🍜",
       "color": "#f4dfd9",
-      "checkedAt": "2026-11-11T18:56:34+00:00",
+      "checkedAt": "2026-11-12T19:14:48+00:00",
       "terms": "Transcribed from the current official Canadian Discovery Menu poster and rechecked against its exact image. Chain-wide advertised price; the Oshawa branch price and final tax/extra charges are not confirmed. No end date is published; the listing is removed when the linked campaign or poster changes.",
       "category": "meal",
       "isDailySpecial": true,
@@ -796,7 +796,7 @@
       "priceLabel": "before tax",
       "icon": "🍜",
       "color": "#f4dfd9",
-      "checkedAt": "2026-11-11T18:56:34+00:00",
+      "checkedAt": "2026-11-12T19:14:48+00:00",
       "terms": "Transcribed from the current official Canadian Discovery Menu poster and rechecked against its exact image. Chain-wide advertised price; the Oshawa branch price and final tax/extra charges are not confirmed. No end date is published; the listing is removed when the linked campaign or poster changes.",
       "category": "meal",
       "isDailySpecial": true,
@@ -837,7 +837,7 @@
       "priceLabel": "before tax",
       "icon": "🍜",
       "color": "#f4dfd9",
-      "checkedAt": "2026-11-11T18:56:34+00:00",
+      "checkedAt": "2026-11-12T19:14:48+00:00",
       "terms": "Transcribed from the current official Canadian Discovery Menu poster and rechecked against its exact image. Chain-wide advertised price; the Oshawa branch price and final tax/extra charges are not confirmed. No end date is published; the listing is removed when the linked campaign or poster changes.",
       "category": "meal",
       "isDailySpecial": true,
@@ -878,7 +878,7 @@
       "priceLabel": "before tax",
       "icon": "🍛",
       "color": "#f4dfd9",
-      "checkedAt": "2026-11-11T18:56:34+00:00",
+      "checkedAt": "2026-11-12T19:14:48+00:00",
       "terms": "Transcribed from the current official Canadian Discovery Menu poster and rechecked against its exact image. Chain-wide advertised price; the Oshawa branch price and final tax/extra charges are not confirmed. No end date is published; the listing is removed when the linked campaign or poster changes.",
       "category": "meal",
       "isDailySpecial": true,
@@ -919,7 +919,7 @@
       "priceLabel": "before tax",
       "icon": "🍛",
       "color": "#f4dfd9",
-      "checkedAt": "2026-11-11T18:56:34+00:00",
+      "checkedAt": "2026-11-12T19:14:48+00:00",
       "terms": "Transcribed from the current official Canadian Discovery Menu poster and rechecked against its exact image. Chain-wide advertised price; the Oshawa branch price and final tax/extra charges are not confirmed. No end date is published; the listing is removed when the linked campaign or poster changes.",
       "category": "meal",
       "isDailySpecial": true,
@@ -960,7 +960,7 @@
       "priceLabel": "before tax",
       "icon": "🍛",
       "color": "#f4dfd9",
-      "checkedAt": "2026-11-11T18:56:34+00:00",
+      "checkedAt": "2026-11-12T19:14:48+00:00",
       "terms": "Transcribed from the current official Canadian Discovery Menu poster and rechecked against its exact image. Chain-wide advertised price; the Oshawa branch price and final tax/extra charges are not confirmed. No end date is published; the listing is removed when the linked campaign or poster changes.",
       "category": "meal",
       "isDailySpecial": true,
@@ -1001,7 +1001,7 @@
       "priceLabel": "before tax",
       "icon": "🍛",
       "color": "#f4dfd9",
-      "checkedAt": "2026-11-11T18:56:34+00:00",
+      "checkedAt": "2026-11-12T19:14:48+00:00",
       "terms": "Transcribed from the current official Canadian Discovery Menu poster and rechecked against its exact image. Chain-wide advertised price; the Oshawa branch price and final tax/extra charges are not confirmed. No end date is published; the listing is removed when the linked campaign or poster changes.",
       "category": "meal",
       "isDailySpecial": true,
@@ -1042,7 +1042,7 @@
       "priceLabel": "before tax",
       "icon": "🍛",
       "color": "#f4dfd9",
-      "checkedAt": "2026-11-11T18:56:34+00:00",
+      "checkedAt": "2026-11-12T19:14:48+00:00",
       "terms": "Transcribed from the current official Canadian Discovery Menu poster and rechecked against its exact image. Chain-wide advertised price; the Oshawa branch price and final tax/extra charges are not confirmed. No end date is published; the listing is removed when the linked campaign or poster changes.",
       "category": "meal",
       "isDailySpecial": true,
@@ -1083,7 +1083,7 @@
       "priceLabel": "before tax",
       "icon": "🍛",
       "color": "#f4dfd9",
-      "checkedAt": "2026-11-11T18:56:34+00:00",
+      "checkedAt": "2026-11-12T19:14:48+00:00",
       "terms": "Transcribed from the current official Canadian Discovery Menu poster and rechecked against its exact image. Chain-wide advertised price; the Oshawa branch price and final tax/extra charges are not confirmed. No end date is published; the listing is removed when the linked campaign or poster changes.",
       "category": "meal",
       "isDailySpecial": true,
@@ -1124,7 +1124,7 @@
       "priceLabel": "before tax",
       "icon": "🍛",
       "color": "#f4dfd9",
-      "checkedAt": "2026-11-11T18:56:34+00:00",
+      "checkedAt": "2026-11-12T19:14:48+00:00",
       "terms": "Transcribed from the current official Canadian Discovery Menu poster and rechecked against its exact image. Chain-wide advertised price; the Oshawa branch price and final tax/extra charges are not confirmed. No end date is published; the listing is removed when the linked campaign or poster changes.",
       "category": "meal",
       "isDailySpecial": true,
@@ -1165,7 +1165,7 @@
       "priceLabel": "before tax",
       "icon": "🍛",
       "color": "#f4dfd9",
-      "checkedAt": "2026-11-11T18:56:34+00:00",
+      "checkedAt": "2026-11-12T19:14:48+00:00",
       "terms": "Transcribed from the current official Canadian Discovery Menu poster and rechecked against its exact image. Chain-wide advertised price; the Oshawa branch price and final tax/extra charges are not confirmed. No end date is published; the listing is removed when the linked campaign or poster changes.",
       "category": "meal",
       "isDailySpecial": true,
@@ -1206,7 +1206,7 @@
       "priceLabel": "before tax",
       "icon": "🍜",
       "color": "#f4dfd9",
-      "checkedAt": "2026-11-11T18:56:34+00:00",
+      "checkedAt": "2026-11-12T19:14:48+00:00",
       "terms": "Transcribed from the current official Canadian Discovery Menu poster and rechecked against its exact image. Chain-wide advertised price; the Oshawa branch price and final tax/extra charges are not confirmed. No end date is published; the listing is removed when the linked campaign or poster changes.",
       "category": "meal",
       "isDailySpecial": true,
@@ -1247,7 +1247,7 @@
       "priceLabel": "before tax",
       "icon": "🍜",
       "color": "#f4dfd9",
-      "checkedAt": "2026-11-11T18:56:34+00:00",
+      "checkedAt": "2026-11-12T19:14:48+00:00",
       "terms": "Transcribed from the current official Canadian Discovery Menu poster and rechecked against its exact image. Chain-wide advertised price; the Oshawa branch price and final tax/extra charges are not confirmed. No end date is published; the listing is removed when the linked campaign or poster changes.",
       "category": "meal",
       "isDailySpecial": true,
@@ -1706,7 +1706,7 @@
       "priceLabel": "before tax",
       "icon": "🍔",
       "color": "#f1ddd3",
-      "checkedAt": "2026-11-11T18:56:34+00:00",
+      "checkedAt": "2026-11-12T19:14:48+00:00",
       "terms": "Coupon destination only: no particular discount or coupon code has been verified. Login, minimum spend, purchase limits and exclusions may apply. Confirm dates and your local branch in the app or website.",
       "category": "coupon",
       "serves": 1,
@@ -1746,7 +1746,7 @@
       "priceLabel": "before tax",
       "icon": "🥪",
       "color": "#e8edd6",
-      "checkedAt": "2026-11-11T18:56:34+00:00",
+      "checkedAt": "2026-11-12T19:14:48+00:00",
       "terms": "Coupon destination only: no particular discount or coupon code has been verified. Login, minimum spend, purchase limits and exclusions may apply. Confirm dates and your local branch in the app or website.",
       "category": "coupon",
       "serves": 1,
@@ -1786,7 +1786,7 @@
       "priceLabel": "before tax",
       "icon": "🍗",
       "color": "#f2e4ca",
-      "checkedAt": "2026-11-11T18:56:34+00:00",
+      "checkedAt": "2026-11-12T19:14:48+00:00",
       "terms": "Coupon destination only: no particular discount or coupon code has been verified. Login, minimum spend, purchase limits and exclusions may apply. Confirm dates and your local branch in the app or website.",
       "category": "coupon",
       "serves": 1,
@@ -1826,7 +1826,7 @@
       "priceLabel": "before tax",
       "icon": "🍕",
       "color": "#f3e1ce",
-      "checkedAt": "2026-11-11T18:56:34+00:00",
+      "checkedAt": "2026-11-12T19:14:48+00:00",
       "terms": "Coupon destination only: no particular discount or coupon code has been verified. Login, minimum spend, purchase limits and exclusions may apply. Confirm dates and your local branch in the app or website.",
       "category": "coupon",
       "serves": 1,
@@ -1906,7 +1906,7 @@
       "priceLabel": "before tax",
       "icon": "🍔",
       "color": "#efe7d2",
-      "checkedAt": "2026-11-11T18:56:34+00:00",
+      "checkedAt": "2026-11-12T19:14:48+00:00",
       "terms": "No discount or code is guaranteed. Select your restaurant and inspect the current offer before ordering.",
       "category": "coupon",
       "serves": 1,
@@ -2026,7 +2026,7 @@
       "priceLabel": "before tax",
       "icon": "🌮",
       "color": "#efe7d2",
-      "checkedAt": "2026-11-11T18:56:34+00:00",
+      "checkedAt": "2026-11-12T19:14:48+00:00",
       "terms": "No discount or code is guaranteed. Select your restaurant and inspect the current offer before ordering.",
       "category": "coupon",
       "serves": 1,
@@ -2066,7 +2066,7 @@
       "priceLabel": "before tax",
       "icon": "🥙",
       "color": "#efe7d2",
-      "checkedAt": "2026-11-11T18:56:34+00:00",
+      "checkedAt": "2026-11-12T19:14:48+00:00",
       "terms": "No discount or code is guaranteed. Select your restaurant and inspect the current offer before ordering.",
       "category": "coupon",
       "serves": 1,
@@ -2106,7 +2106,7 @@
       "priceLabel": "before tax",
       "icon": "🥙",
       "color": "#efe7d2",
-      "checkedAt": "2026-11-11T18:56:34+00:00",
+      "checkedAt": "2026-11-12T19:14:48+00:00",
       "terms": "No discount or code is guaranteed. Select your restaurant and inspect the current offer before ordering.",
       "category": "coupon",
       "serves": 1,
@@ -2146,7 +2146,7 @@
       "priceLabel": "before tax",
       "icon": "🍜",
       "color": "#efe7d2",
-      "checkedAt": "2026-11-11T18:56:34+00:00",
+      "checkedAt": "2026-11-12T19:14:48+00:00",
       "terms": "No discount or code is guaranteed. Select your restaurant and inspect the current offer before ordering.",
       "category": "coupon",
       "serves": 1,
@@ -2186,7 +2186,7 @@
       "priceLabel": "before tax",
       "icon": "🥤",
       "color": "#efe7d2",
-      "checkedAt": "2026-11-11T18:56:34+00:00",
+      "checkedAt": "2026-11-12T19:14:48+00:00",
       "terms": "No discount or code is guaranteed. Select your restaurant and inspect the current offer before ordering.",
       "category": "coupon",
       "serves": 1,
@@ -2226,7 +2226,7 @@
       "priceLabel": "before tax",
       "icon": "🌯",
       "color": "#efe7d2",
-      "checkedAt": "2026-11-11T18:56:34+00:00",
+      "checkedAt": "2026-11-12T19:14:48+00:00",
       "terms": "No discount or code is guaranteed. Select your restaurant and inspect the current offer before ordering.",
       "category": "coupon",
       "serves": 1,
@@ -2306,7 +2306,7 @@
       "priceLabel": "before tax",
       "icon": "🌯",
       "color": "#efe7d2",
-      "checkedAt": "2026-11-11T18:56:34+00:00",
+      "checkedAt": "2026-11-12T19:14:48+00:00",
       "terms": "No discount or code is guaranteed. Select your restaurant and inspect the current offer before ordering.",
       "category": "coupon",
       "serves": 1,
@@ -2455,7 +2455,7 @@
       "phone": "905-432-8838",
       "url": "https://bigbitesshawarma.com/",
       "addressVerified": true,
-      "checkedAt": "2026-11-11T18:56:34+00:00",
+      "checkedAt": "2026-11-12T19:14:48+00:00",
       "hasPricedMenu": true
     },
     {
@@ -2466,7 +2466,7 @@
       "phone": "905-725-8152",
       "url": "https://pitadeliwhitby.com/",
       "addressVerified": true,
-      "checkedAt": "2026-11-11T18:56:34+00:00",
+      "checkedAt": "2026-11-12T19:14:48+00:00",
       "hasPricedMenu": true
     },
     {
@@ -2477,7 +2477,7 @@
       "phone": "905-240-2326",
       "url": "https://corkandbean.ca/oshawa/menu/",
       "addressVerified": true,
-      "checkedAt": "2026-11-11T18:56:34+00:00",
+      "checkedAt": "2026-11-12T19:14:48+00:00",
       "hasPricedMenu": true
     },
     {
@@ -2498,7 +2498,7 @@
       "phone": "905-438-0001",
       "url": "https://locations.wendys.com/canada/on/oshawa/323-king-st-w",
       "addressVerified": true,
-      "checkedAt": "2026-11-11T18:56:34+00:00",
+      "checkedAt": "2026-11-12T19:14:48+00:00",
       "hasPricedMenu": false
     },
     {
@@ -2509,7 +2509,7 @@
       "phone": "905-404-4400",
       "url": "https://locations.wendys.com/canada/on/oshawa/1362-harmony-road",
       "addressVerified": true,
-      "checkedAt": "2026-11-11T18:56:34+00:00",
+      "checkedAt": "2026-11-12T19:14:48+00:00",
       "hasPricedMenu": false
     },
     {
@@ -2520,7 +2520,7 @@
       "phone": "905-665-1176",
       "url": "https://locations.wendys.com/canada/on/whitby/1-paisley-ct",
       "addressVerified": true,
-      "checkedAt": "2026-11-11T18:56:34+00:00",
+      "checkedAt": "2026-11-12T19:14:48+00:00",
       "hasPricedMenu": false
     },
     {
@@ -2531,7 +2531,7 @@
       "phone": "905-430-9075",
       "url": "https://locations.osmows.com/on/whitby/3050-garden-st-unit-123",
       "addressVerified": true,
-      "checkedAt": "2026-11-11T18:56:34+00:00",
+      "checkedAt": "2026-11-12T19:14:48+00:00",
       "hasPricedMenu": false
     },
     {
@@ -2541,7 +2541,7 @@
       "address": "5969 Baldwin Street South, Whitby",
       "url": "https://locations.osmows.com/on/whitby/5969-baldwin-street-south",
       "addressVerified": true,
-      "checkedAt": "2026-11-11T18:56:34+00:00",
+      "checkedAt": "2026-11-12T19:14:48+00:00",
       "hasPricedMenu": false
     },
     {
@@ -2552,7 +2552,7 @@
       "phone": "905-665-3333",
       "url": "https://www.barburrito.ca/location/whitby-shores/",
       "addressVerified": true,
-      "checkedAt": "2026-11-11T18:56:34+00:00",
+      "checkedAt": "2026-11-12T19:14:48+00:00",
       "hasPricedMenu": false
     },
     {
@@ -2563,7 +2563,7 @@
       "phone": "905-419-9616",
       "url": "https://www.barburrito.ca/location/bowmanville/",
       "addressVerified": true,
-      "checkedAt": "2026-11-11T18:56:34+00:00",
+      "checkedAt": "2026-11-12T19:14:48+00:00",
       "hasPricedMenu": false
     },
     {
@@ -2574,16 +2574,33 @@
       "phone": "905-433-8883",
       "url": "https://thaiexpress.ca/location/oshawa-centre-on/",
       "addressVerified": true,
-      "checkedAt": "2026-11-11T18:56:34+00:00",
+      "checkedAt": "2026-11-12T19:14:48+00:00",
       "hasPricedMenu": false
     }
   ],
   "leads": [
     {
+      "title": "Booster Juice Canada Celebrate 27th Birthday Promotion: Buy One, Get One FREE Smoothies",
+      "url": "https://smartcanucks.ca/booster-juice-canada-celebrate-27th-birthday-promotion-buy-one-get-one-free-smoothies/",
+      "snippet": "Canadian coupon-site lead. Check the original merchant, location, eligible dates and conditions.",
+      "foundAt": "2026-11-12T19:14:48+00:00",
+      "publishedAt": "Thu, 12 Nov 2026 15:53:13 +0000",
+      "query": "SmartCanucks RSS",
+      "status": "unverified"
+    },
+    {
+      "title": "Harvey’s Restaurant Canada New Coupons",
+      "url": "https://smartcanucks.ca/harveys-restaurant-canada-new-coupons-4/",
+      "snippet": "Coupon search lead — requires merchant confirmation.",
+      "foundAt": "2026-11-12T19:14:48+00:00",
+      "query": "SmartCanucks restaurant search",
+      "status": "unverified"
+    },
+    {
       "title": "Subway Gift Card Offer",
       "url": "https://www.savealoonie.com/food/subway-gift-card-offer/",
       "snippet": "Canadian coupon-site lead. Check the original merchant, location, eligible dates and conditions.",
-      "foundAt": "2026-11-11T18:56:34+00:00",
+      "foundAt": "2026-11-12T19:14:48+00:00",
       "publishedAt": "Tue, 10 Nov 2026 13:17:57 +0000",
       "query": "SaveaLoonie RSS",
       "status": "unverified"
@@ -2592,7 +2609,7 @@
       "title": "SPECIALTY SHOTS",
       "url": "https://boosterjuice.com/en-ca/collections/specialty-shots",
       "snippet": "Official merchant link — inspect price, eligible dates and branch.",
-      "foundAt": "2026-11-11T18:56:34+00:00",
+      "foundAt": "2026-11-12T19:14:48+00:00",
       "query": "Booster Juice offers",
       "status": "official-link"
     },
@@ -2600,7 +2617,7 @@
       "title": "Breakfast Wraps",
       "url": "https://boosterjuice.com/en-ca/blogs/current-promotions/breakfast-wraps",
       "snippet": "Official merchant link — inspect price, eligible dates and branch.",
-      "foundAt": "2026-11-11T18:56:34+00:00",
+      "foundAt": "2026-11-12T19:14:48+00:00",
       "query": "Booster Juice offers",
       "status": "official-link"
     },
@@ -2608,55 +2625,55 @@
       "title": "Best Burrito Deals On Black Friday!",
       "url": "https://www.barburrito.ca/best-burrito-deals-on-black-friday/",
       "snippet": "Official merchant link — inspect price, eligible dates and branch.",
-      "foundAt": "2026-11-11T18:56:34+00:00",
+      "foundAt": "2026-11-12T19:14:48+00:00",
       "query": "barBurrito offers",
       "status": "official-link"
     },
     {
       "title": "Crunchwrap Supreme® Combo",
-      "url": "https://www.tacobell.ca/en/menu/crunchwrap_supreme__combo_1168",
+      "url": "https://www.tacobell.ca/en/menu/crunchwrap_supreme__combo_1750",
       "snippet": "Official merchant link — inspect price, eligible dates and branch.",
-      "foundAt": "2026-11-11T18:56:34+00:00",
+      "foundAt": "2026-11-12T19:14:48+00:00",
       "query": "Taco Bell current menu",
       "status": "official-link"
     },
     {
       "title": "Crunchwrap Supreme® Beef",
-      "url": "https://www.tacobell.ca/en/menu/crunchwrap_supreme__beef_78ac",
+      "url": "https://www.tacobell.ca/en/menu/crunchwrap_supreme__beef_4737",
       "snippet": "Official merchant link — inspect price, eligible dates and branch.",
-      "foundAt": "2026-11-11T18:56:34+00:00",
+      "foundAt": "2026-11-12T19:14:48+00:00",
       "query": "Taco Bell current menu",
       "status": "official-link"
     },
     {
       "title": "Black Bean Crunchwrap Supreme®",
-      "url": "https://www.tacobell.ca/en/menu/black_bean_crunchwrap_supreme___46de",
+      "url": "https://www.tacobell.ca/en/menu/black_bean_crunchwrap_supreme___41a0",
       "snippet": "Official merchant link — inspect price, eligible dates and branch.",
-      "foundAt": "2026-11-11T18:56:34+00:00",
+      "foundAt": "2026-11-12T19:14:48+00:00",
       "query": "Taco Bell current menu",
       "status": "official-link"
     },
     {
       "title": "Crunchwrap Supreme® Combo",
-      "url": "https://www.tacobell.ca/en/menu/crunchwrap_supreme__combo_7b72",
+      "url": "https://www.tacobell.ca/en/menu/crunchwrap_supreme__combo_0528",
       "snippet": "Official merchant link — inspect price, eligible dates and branch.",
-      "foundAt": "2026-11-11T18:56:34+00:00",
+      "foundAt": "2026-11-12T19:14:48+00:00",
       "query": "Taco Bell current menu",
       "status": "official-link"
     },
     {
       "title": "Crunchwrap Supreme® Beef",
-      "url": "https://www.tacobell.ca/en/menu/crunchwrap_supreme__beef_cbf6",
+      "url": "https://www.tacobell.ca/en/menu/crunchwrap_supreme__beef_329c",
       "snippet": "Official merchant link — inspect price, eligible dates and branch.",
-      "foundAt": "2026-11-11T18:56:34+00:00",
+      "foundAt": "2026-11-12T19:14:48+00:00",
       "query": "Taco Bell current menu",
       "status": "official-link"
     },
     {
       "title": "Black Bean Crunchwrap Supreme®",
-      "url": "https://www.tacobell.ca/en/menu/black_bean_crunchwrap_supreme___a9d8",
+      "url": "https://www.tacobell.ca/en/menu/black_bean_crunchwrap_supreme___08fa",
       "snippet": "Official merchant link — inspect price, eligible dates and branch.",
-      "foundAt": "2026-11-11T18:56:34+00:00",
+      "foundAt": "2026-11-12T19:14:48+00:00",
       "query": "Taco Bell current menu",
       "status": "official-link"
     },
@@ -2664,7 +2681,7 @@
       "title": "Big Bites SHAWARMA · OSHAWA",
       "url": "https://bigbitesshawarma.com/#top",
       "snippet": "Official merchant link — inspect price, eligible dates and branch.",
-      "foundAt": "2026-11-11T18:56:34+00:00",
+      "foundAt": "2026-11-12T19:14:48+00:00",
       "query": "Big Bites Oshawa menu",
       "status": "official-link"
     },
@@ -2672,7 +2689,7 @@
       "title": "SUBWAY Restaurants Canada Deals & Promotions: Buy One Footlong, Get One FREE + Get 20% off any Power Bowl + $5 Snackwich & Potato Rings",
       "url": "https://smartcanucks.ca/subway-restaurants-canada-deals-promotions-buy-one-footlong-get-one-free-get-20-off-any-power-bowl-5-snackwich-potato-rings/",
       "snippet": "Coupon search lead — requires merchant confirmation.",
-      "foundAt": "2026-11-11T18:56:34+00:00",
+      "foundAt": "2026-11-12T19:14:48+00:00",
       "query": "SmartCanucks restaurant search",
       "status": "unverified"
     },
@@ -2680,7 +2697,7 @@
       "title": "Mandarin Restaurants Canada National Seniors Day Event Promotion: Save 50% Off Adult Buffet Meal for Lunch or Dinner on October 1",
       "url": "https://smartcanucks.ca/mandarin-restaurants-canada-national-seniors-day-event-promotion-save-50-off-adult-buffet-meal-for-lunch-or-dinner-on-october-1/",
       "snippet": "Coupon search lead — requires merchant confirmation.",
-      "foundAt": "2026-11-11T18:56:34+00:00",
+      "foundAt": "2026-11-12T19:14:48+00:00",
       "query": "SmartCanucks restaurant search",
       "status": "unverified"
     },
@@ -2688,7 +2705,7 @@
       "title": "IKEA Canada Swedish Restaurant 50th Anniversary Event Promotion: Enjoy Traditional Breakfast For Only $1.00 this Weekend + Coupon for $50 Off $150 Purchases September 12-13",
       "url": "https://smartcanucks.ca/ikea-canada-swedish-restaurant-50th-anniversary-event-promotion-enjoy-traditional-breakfast-for-only-1-00-this-weekend-coupon-for-50-off-150-purchases-september-12-13/",
       "snippet": "Coupon search lead — requires merchant confirmation.",
-      "foundAt": "2026-11-11T18:56:34+00:00",
+      "foundAt": "2026-11-12T19:14:48+00:00",
       "query": "SmartCanucks restaurant search",
       "status": "unverified"
     },
@@ -2696,7 +2713,7 @@
       "title": "Mr.Sub Restaurants Canada National Guest Fest Promo Code: Buy One, Get One Large Assorted and Super Assorted Sub FREE + More Deals",
       "url": "https://smartcanucks.ca/mr-sub-restaurants-canada-national-guest-fest-promo-code-buy-one-get-one-large-assorted-and-super-assorted-sub-free/",
       "snippet": "Coupon search lead — requires merchant confirmation.",
-      "foundAt": "2026-11-11T18:56:34+00:00",
+      "foundAt": "2026-11-12T19:14:48+00:00",
       "query": "SmartCanucks restaurant search",
       "status": "unverified"
     },
@@ -2704,7 +2721,7 @@
       "title": "SUBWAY Restaurants Canada Deals & Promotions: Classic Footlongs Under $10 + More",
       "url": "https://smartcanucks.ca/subway-restaurants-canada-deals-promotions-classic-footlongs-under-10-more/",
       "snippet": "Coupon search lead — requires merchant confirmation.",
-      "foundAt": "2026-11-11T18:56:34+00:00",
+      "foundAt": "2026-11-12T19:14:48+00:00",
       "query": "SmartCanucks restaurant search",
       "status": "unverified"
     },
@@ -2712,7 +2729,15 @@
       "title": "Burger King Canada FREE Fries + More Offers",
       "url": "https://smartcanucks.ca/burger-king-canada-free-fries-more-offers/",
       "snippet": "Coupon search lead — requires merchant confirmation.",
-      "foundAt": "2026-11-11T18:56:34+00:00",
+      "foundAt": "2026-11-12T19:14:48+00:00",
+      "query": "SmartCanucks restaurant search",
+      "status": "unverified"
+    },
+    {
+      "title": "Harvey’s Restaurant Canada New Coupons",
+      "url": "https://hotcanadadeals.ca/harveys-restaurant-canada-new-coupons-3/",
+      "snippet": "Coupon search lead — requires merchant confirmation.",
+      "foundAt": "2026-11-12T19:14:48+00:00",
       "query": "SmartCanucks restaurant search",
       "status": "unverified"
     }
@@ -2722,296 +2747,296 @@
       "name": "McDonald’s current offers",
       "url": "https://www.mcdonalds.com/ca/en-ca.html",
       "ok": false,
-      "checkedAt": "2026-11-11T18:56:34+00:00",
+      "checkedAt": "2026-11-12T19:14:48+00:00",
       "error": "HTTP Error 403: Forbidden"
     },
     {
       "name": "McDonald’s price promise",
       "url": "https://www.mcdonalds.com/ca/en-ca/newsroom/article/McDonald-s-Canada-Announces-One-Year-Price-Promise-on--5-McValue--Meals-and--1-small-McCaf---Coffee-.html",
       "ok": false,
-      "checkedAt": "2026-11-11T18:56:34+00:00",
+      "checkedAt": "2026-11-12T19:14:48+00:00",
       "error": "HTTP Error 403: Forbidden"
     },
     {
       "name": "KFC online offers",
       "url": "https://www.kfc.ca/menu/kfcca-exclusive-offers",
       "ok": false,
-      "checkedAt": "2026-11-11T18:56:34+00:00",
+      "checkedAt": "2026-11-12T19:14:48+00:00",
       "error": "The read operation timed out"
     },
     {
       "name": "KFC Ontario coupons",
       "url": "https://www.kfc.ca/coupons",
       "ok": false,
-      "checkedAt": "2026-11-11T18:56:34+00:00",
+      "checkedAt": "2026-11-12T19:14:48+00:00",
       "error": "The read operation timed out"
     },
     {
       "name": "Wendy’s Canada",
       "url": "https://www.wendys.com/en-ca",
       "ok": true,
-      "checkedAt": "2026-11-11T18:56:34+00:00"
+      "checkedAt": "2026-11-12T19:14:48+00:00"
     },
     {
       "name": "Harvey’s coupons",
       "url": "https://www.harveys.ca/en/coupons.html",
       "ok": false,
-      "checkedAt": "2026-11-11T18:56:34+00:00",
+      "checkedAt": "2026-11-12T19:14:48+00:00",
       "error": "HTTP Error 403: Forbidden"
     },
     {
       "name": "Harvey’s deals",
       "url": "https://www.harveys.ca/en/deals.html",
       "ok": false,
-      "checkedAt": "2026-11-11T18:56:34+00:00",
+      "checkedAt": "2026-11-12T19:14:48+00:00",
       "error": "HTTP Error 403: Forbidden"
     },
     {
       "name": "Subway Canada",
       "url": "https://www.subway.com/en-ca/",
       "ok": true,
-      "checkedAt": "2026-11-11T18:56:34+00:00"
+      "checkedAt": "2026-11-12T19:14:48+00:00"
     },
     {
       "name": "Mary Brown’s",
       "url": "https://marybrowns.com/",
       "ok": true,
-      "checkedAt": "2026-11-11T18:56:34+00:00"
+      "checkedAt": "2026-11-12T19:14:48+00:00"
     },
     {
       "name": "Pizza Pizza",
       "url": "https://www.pizzapizza.ca/for-you/",
       "ok": true,
-      "checkedAt": "2026-11-11T18:56:34+00:00"
+      "checkedAt": "2026-11-12T19:14:48+00:00"
     },
     {
       "name": "A&W Canada",
       "url": "https://web.aw.ca/en/our-menu",
       "ok": false,
-      "checkedAt": "2026-11-11T18:56:34+00:00",
+      "checkedAt": "2026-11-12T19:14:48+00:00",
       "error": "Empty, JavaScript-only or blocked response"
     },
     {
       "name": "Tim Hortons",
       "url": "https://www.timhortons.ca/offers",
       "ok": false,
-      "checkedAt": "2026-11-11T18:56:34+00:00",
+      "checkedAt": "2026-11-12T19:14:48+00:00",
       "error": "Empty, JavaScript-only or blocked response"
     },
     {
       "name": "SmartCanucks RSS",
       "url": "https://smartcanucks.ca/feed/",
       "ok": true,
-      "checkedAt": "2026-11-11T18:56:34+00:00"
+      "checkedAt": "2026-11-12T19:14:48+00:00"
     },
     {
       "name": "SaveaLoonie RSS",
       "url": "https://www.savealoonie.com/feed/",
       "ok": true,
-      "checkedAt": "2026-11-11T18:56:34+00:00"
+      "checkedAt": "2026-11-12T19:14:48+00:00"
     },
     {
       "name": "Burger King offers",
       "url": "https://www.burgerking.ca/offers",
       "ok": true,
-      "checkedAt": "2026-11-11T18:56:34+00:00"
+      "checkedAt": "2026-11-12T19:14:48+00:00"
     },
     {
       "name": "A&W offers",
       "url": "https://web.aw.ca/en/coupons",
       "ok": false,
-      "checkedAt": "2026-11-11T18:56:34+00:00",
+      "checkedAt": "2026-11-12T19:14:48+00:00",
       "error": "Empty, JavaScript-only or blocked response"
     },
     {
       "name": "Popeyes offers",
       "url": "https://www.popeyeschicken.ca/offers",
       "ok": false,
-      "checkedAt": "2026-11-11T18:56:34+00:00",
+      "checkedAt": "2026-11-12T19:14:48+00:00",
       "error": "Unsupported compressed response"
     },
     {
       "name": "Taco Bell offers",
       "url": "https://www.tacobell.ca/en/coupons",
       "ok": true,
-      "checkedAt": "2026-11-11T18:56:34+00:00"
+      "checkedAt": "2026-11-12T19:14:48+00:00"
     },
     {
       "name": "Osmow’s offers",
       "url": "https://osmows.com/dailyspecials/",
       "ok": true,
-      "checkedAt": "2026-11-11T18:56:34+00:00"
+      "checkedAt": "2026-11-12T19:14:48+00:00"
     },
     {
       "name": "Pita Pit offers",
       "url": "https://pitapit.ca/restaurants/whitby/",
       "ok": true,
-      "checkedAt": "2026-11-11T18:56:34+00:00"
+      "checkedAt": "2026-11-12T19:14:48+00:00"
     },
     {
       "name": "Thai Express offers",
       "url": "https://thaiexpress.ca/promotions/",
       "ok": true,
-      "checkedAt": "2026-11-11T18:56:34+00:00"
+      "checkedAt": "2026-11-12T19:14:48+00:00"
     },
     {
       "name": "Booster Juice offers",
       "url": "https://boosterjuice.com/en-ca/blogs/current-promotions",
       "ok": true,
-      "checkedAt": "2026-11-11T18:56:34+00:00"
+      "checkedAt": "2026-11-12T19:14:48+00:00"
     },
     {
       "name": "barBurrito offers",
       "url": "https://www.barburrito.ca/news/",
       "ok": true,
-      "checkedAt": "2026-11-11T18:56:34+00:00"
+      "checkedAt": "2026-11-12T19:14:48+00:00"
     },
     {
       "name": "Starbucks offers",
       "url": "https://www.starbucks.ca/rewards",
       "ok": false,
-      "checkedAt": "2026-11-11T18:56:34+00:00",
+      "checkedAt": "2026-11-12T19:14:48+00:00",
       "error": "Empty, JavaScript-only or blocked response"
     },
     {
       "name": "MUCHO Burrito offers",
       "url": "https://locations.muchoburrito.com/en-ca/on/bowmanville/MB0038",
       "ok": true,
-      "checkedAt": "2026-11-11T18:56:34+00:00"
+      "checkedAt": "2026-11-12T19:14:48+00:00"
     },
     {
       "name": "Taco Bell current menu",
       "url": "https://www.tacobell.ca/en/menu",
       "ok": true,
-      "checkedAt": "2026-11-11T18:56:34+00:00"
+      "checkedAt": "2026-11-12T19:14:48+00:00"
     },
     {
       "name": "Big Bites Oshawa menu",
       "url": "https://bigbitesshawarma.com/",
       "ok": true,
-      "checkedAt": "2026-11-11T18:56:34+00:00"
+      "checkedAt": "2026-11-12T19:14:48+00:00"
     },
     {
       "name": "Pita Deli Whitby menu",
       "url": "https://pitadeliwhitby.com/",
       "ok": true,
-      "checkedAt": "2026-11-11T18:56:34+00:00"
+      "checkedAt": "2026-11-12T19:14:48+00:00"
     },
     {
       "name": "Cork & Bean Oshawa menu",
       "url": "https://corkandbean.ca/oshawa/menu/",
       "ok": true,
-      "checkedAt": "2026-11-11T18:56:34+00:00"
+      "checkedAt": "2026-11-12T19:14:48+00:00"
     },
     {
       "name": "RedFlagDeals RSS",
       "url": "https://www.redflagdeals.com/rss/deals/",
       "ok": false,
-      "checkedAt": "2026-11-11T18:56:34+00:00",
+      "checkedAt": "2026-11-12T19:14:48+00:00",
       "error": "HTTP Error 404: Not Found"
     },
     {
       "name": "Bargainmoose RSS",
       "url": "https://www.bargainmoose.ca/feed",
       "ok": false,
-      "checkedAt": "2026-11-11T18:56:34+00:00",
+      "checkedAt": "2026-11-12T19:14:48+00:00",
       "error": "HTTP Error 404: Not Found"
     },
     {
       "name": "SmartCanucks restaurant search",
       "url": "https://smartcanucks.ca/?s=restaurant",
       "ok": true,
-      "checkedAt": "2026-11-11T18:56:34+00:00"
+      "checkedAt": "2026-11-12T19:14:48+00:00"
     },
     {
       "name": "SmartCanucks food search",
       "url": "https://smartcanucks.ca/?s=food",
       "ok": true,
-      "checkedAt": "2026-11-11T18:56:34+00:00"
+      "checkedAt": "2026-11-12T19:14:48+00:00"
     },
     {
       "name": "Thai Express Blue Rewards",
       "url": "https://thaiexpress.ca/blue-rewards/",
       "ok": true,
-      "checkedAt": "2026-11-11T18:56:34+00:00"
+      "checkedAt": "2026-11-12T19:14:48+00:00"
     },
     {
       "name": "Booster Juice rewards",
       "url": "https://boosterjuice.com/en-ca/pages/booster-rewards",
       "ok": true,
-      "checkedAt": "2026-11-11T18:56:34+00:00"
+      "checkedAt": "2026-11-12T19:14:48+00:00"
     },
     {
       "name": "Starbucks Canada Rewards terms",
       "url": "https://www.starbucks.ca/terms/rewards",
       "ok": true,
-      "checkedAt": "2026-11-11T18:56:34+00:00"
+      "checkedAt": "2026-11-12T19:14:48+00:00"
     },
     {
       "name": "McDonald’s 501 Ritson Rd S, Oshawa",
       "url": "https://www.mcdonalds.com/ca/en-ca/location/oshawa/oshawa-ritson/501-ritson-rd-s/3313.html",
       "ok": false,
-      "checkedAt": "2026-11-11T18:56:34+00:00",
+      "checkedAt": "2026-11-12T19:14:48+00:00",
       "error": "HTTP Error 403: Forbidden"
     },
     {
       "name": "Wendy’s 323 King St W, Oshawa",
       "url": "https://locations.wendys.com/canada/on/oshawa/323-king-st-w",
       "ok": true,
-      "checkedAt": "2026-11-11T18:56:34+00:00"
+      "checkedAt": "2026-11-12T19:14:48+00:00"
     },
     {
       "name": "Wendy’s 1362 Harmony Road, Oshawa",
       "url": "https://locations.wendys.com/canada/on/oshawa/1362-harmony-road",
       "ok": true,
-      "checkedAt": "2026-11-11T18:56:34+00:00"
+      "checkedAt": "2026-11-12T19:14:48+00:00"
     },
     {
       "name": "Wendy’s 1 Paisley Ct, Whitby",
       "url": "https://locations.wendys.com/canada/on/whitby/1-paisley-ct",
       "ok": true,
-      "checkedAt": "2026-11-11T18:56:34+00:00"
+      "checkedAt": "2026-11-12T19:14:48+00:00"
     },
     {
       "name": "Osmow’s 3050 Garden St Unit 123, Whitby",
       "url": "https://locations.osmows.com/on/whitby/3050-garden-st-unit-123",
       "ok": true,
-      "checkedAt": "2026-11-11T18:56:34+00:00"
+      "checkedAt": "2026-11-12T19:14:48+00:00"
     },
     {
       "name": "Osmow’s 5969 Baldwin Street South, Whitby",
       "url": "https://locations.osmows.com/on/whitby/5969-baldwin-street-south",
       "ok": true,
-      "checkedAt": "2026-11-11T18:56:34+00:00"
+      "checkedAt": "2026-11-12T19:14:48+00:00"
     },
     {
       "name": "barBurrito 617 Victoria St W, Whitby",
       "url": "https://www.barburrito.ca/location/whitby-shores/",
       "ok": true,
-      "checkedAt": "2026-11-11T18:56:34+00:00"
+      "checkedAt": "2026-11-12T19:14:48+00:00"
     },
     {
       "name": "barBurrito 2360 Hwy 2, Bowmanville",
       "url": "https://www.barburrito.ca/location/bowmanville/",
       "ok": true,
-      "checkedAt": "2026-11-11T18:56:34+00:00"
+      "checkedAt": "2026-11-12T19:14:48+00:00"
     },
     {
       "name": "Thai Express 419 King Street West #2232, Oshawa",
       "url": "https://thaiexpress.ca/location/oshawa-centre-on/",
       "ok": true,
-      "checkedAt": "2026-11-11T18:56:34+00:00"
+      "checkedAt": "2026-11-12T19:14:48+00:00"
     },
     {
       "name": "Thai Express daily Discovery Menu",
       "url": "https://thaiexpress.ca/discovery-menu-week/",
       "ok": true,
-      "checkedAt": "2026-11-11T18:56:34+00:00"
+      "checkedAt": "2026-11-12T19:14:48+00:00"
     },
     {
       "name": "Thai Express daily-special poster",
       "url": "https://thaiexpress.ca/wp-content/uploads/2026/03/TX26_NAT_001_SPRING_SUMMER_LTO_DM_2200X950_WEBSITE_DESKTOP_WEEK_JAN26_EN-1024x442.png",
-      "checkedAt": "2026-11-11T18:56:34+00:00",
+      "checkedAt": "2026-11-12T19:14:48+00:00",
       "ok": true
     }
   ]
